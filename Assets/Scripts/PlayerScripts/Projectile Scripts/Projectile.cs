@@ -2,13 +2,13 @@ using UnityEngine;
 
 public class Projectile : MonoBehaviour
 {
-    private Vector3 startPos;
-    private Vector3 direction;
-    private bool hasTarget;
+    protected Vector3 startPos;
+    protected Vector3 direction;
+    protected bool hasTarget;
 
-    [SerializeField] float speed;
-    private float lifetime = 3f;
-    void Start()
+    [SerializeField] protected float speed;
+    [SerializeField] protected float lifetime = 3f;
+    protected virtual void Start()
     {
         Destroy(gameObject, lifetime);
     }
@@ -20,7 +20,7 @@ public class Projectile : MonoBehaviour
         hasTarget = true;
     }
     // Update is called once per frame
-    void Update()
+    protected virtual void Update()
     {
         if (!hasTarget) { return; }
 
@@ -28,7 +28,7 @@ public class Projectile : MonoBehaviour
 
     }
 
-    void OnCollisionEnter2D(Collision2D collision)
+    protected virtual void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {

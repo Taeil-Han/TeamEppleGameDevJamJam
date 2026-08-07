@@ -51,23 +51,17 @@ public class PlayerMovement : MonoBehaviour
 
         Vector3 currPos = GetMouseWorldPos();
 
-        if (Input.GetMouseButtonDown(0))
+        if (myY < currPos.y) //Clamps Angle
         {
-            isDragging = true;
-        }
-
-        if (isDragging && Input.GetMouseButton(0) && myY < currPos.y) //Clamps Angle
-        {
+            ClearAimLine();
             Aim(pos, currPos);
         }
-        if (Input.GetMouseButtonUp(0)) 
+        if (Input.GetMouseButtonDown(0)) 
         {
             if (myY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
                 Shoot(pos, currPos);
             }
-            isDragging = false;
-            ClearAimLine();
         }
 
         float scroll = Input.mouseScrollDelta.y;
