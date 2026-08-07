@@ -6,8 +6,19 @@ public class customer : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D obj) {
         if (obj.CompareTag("Store"))
+        {
             Debug.Log("Robbed");
             Destroy(gameObject);
+        } else if (obj.CompareTag("PlayerBullet")) {
+            if (scoreManager.Instance != null)
+            {
+                scoreManager.Instance.AddScore(5);
+                scoreManager.Instance.AddMoney(1.50f);
+                Debug.Log(scoreManager.Instance.score);
+            }
+            Destroy(gameObject);
+        }
+            
     }
 
     void Update()
@@ -16,4 +27,5 @@ public class customer : MonoBehaviour
         if (transform.position.y < Camera.main.ViewportToWorldPoint(new Vector3(0,0,0)).y)
             Destroy(gameObject);
     }
+
 }

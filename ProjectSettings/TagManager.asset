@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Store
   - Enemy
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
