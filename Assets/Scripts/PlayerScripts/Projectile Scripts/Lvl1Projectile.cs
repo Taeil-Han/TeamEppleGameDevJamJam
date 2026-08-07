@@ -8,7 +8,7 @@ public class Lvl1Projectile : Projectile
         if (collision.gameObject.CompareTag("Enemy"))
         {
             //Stuff it does when it gets hit
+            Destroy(gameObject);
         }
-        Destroy(gameObject);
     }
 }

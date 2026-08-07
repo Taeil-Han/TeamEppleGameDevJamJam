@@ -133,6 +133,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerSprite: {fileID: 0}
+  lvl1proj: {fileID: 2715939753769870036, guid: 305d882a8b021b546ac7fad9a9c2e04d, type: 3}
+  lvl2proj: {fileID: 8506943839726325857, guid: d992f932502163143adc9567b8b316a3, type: 3}
+  lvl3proj: {fileID: 5835718694065596627, guid: e1e3dd13a4489794fb863057510d2a02, type: 3}
   speed: 5
   minX: -8
   maxX: 8
+  aimLineSprite: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
+  aimEndSprite: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
+  spacing: 0.3
+  spriteRotationOffset: -90
+  firerate: 0.3
+  bulletPrefabs:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}

@@ -4,7 +4,10 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     [SerializeField] Sprite playerSprite;
-    [SerializeField] GameObject projectile;
+    [SerializeField] GameObject lvl1proj;
+    [SerializeField] GameObject lvl2proj;
+    [SerializeField] GameObject lvl3proj;
+
 
     [SerializeField] float speed = 5f;
     [SerializeField] float minX = -8f;
@@ -22,6 +25,7 @@ public class PlayerMovement : MonoBehaviour
     //Shell Organization
     [SerializeField] GameObject[] bulletPrefabs = new GameObject[5];
     private int currentShellIndex = 0;
+    private int unlockedShell = 0;
     
 
     //Dragging
@@ -60,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         {
             if (myY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
-                Shoot(pos, currPos);
+                Shoot(pos, currPos, currentShellIndex);
             }
         }
 
@@ -78,6 +82,8 @@ public class PlayerMovement : MonoBehaviour
             if (currentShellIndex < 0)
                 currentShellIndex = bulletPrefabs.Length - 1;
         }
+
+        Debug.Log(currentShellIndex);
 
     }
 
@@ -130,13 +136,29 @@ public class PlayerMovement : MonoBehaviour
     }
     #endregion
 
-    public void Shoot(Vector3 startPos, Vector3 endPos) 
+    public void Shoot(Vector3 startPos, Vector3 endPos, int currShell) 
     {
         if (Time.time < nextFireTime) { return; }
 
-        GameObject obj = Instantiate(projectile, startPos, Quaternion.identity);
-        Projectile proj = obj.GetComponent<Projectile>();
-        proj.Init(startPos, endPos);
+        switch (currShell)
+        {
+            case 1:
+                GameObject obj2 = Instantiate(lvl2proj, startPos, Quaternion.identity);
+                Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
+                proj2.Init(startPos, endPos);
+                break;
+            case 2:
+                GameObject obj3 = Instantiate(lvl3proj, startPos, Quaternion.identity);
+                Lvl3Projectile proj3 = obj3.GetComponent<Lvl3Projectile>();
+                proj3.Init(startPos, endPos);
+                proj3.SetTarget(transform);
+                break;
+            default:
+                GameObject obj = Instantiate(lvl1proj, startPos, Quaternion.identity);
+                Lvl1Projectile proj = obj.GetComponent<Lvl1Projectile>();
+                proj.Init(startPos, endPos);
+                break;
+        }
         
         //Timer for bullet
         nextFireTime = Time.time + firerate;
