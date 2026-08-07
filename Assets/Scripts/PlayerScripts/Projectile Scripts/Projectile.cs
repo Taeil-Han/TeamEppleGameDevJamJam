@@ -12,7 +12,7 @@ public class Projectile : MonoBehaviour
     {
         Destroy(gameObject, lifetime);
     }
-    public void Init(Vector3 start, Vector3 end)
+    public virtual void Init(Vector3 start, Vector3 end)
     {
         startPos = start;
         direction = (end - start).normalized;

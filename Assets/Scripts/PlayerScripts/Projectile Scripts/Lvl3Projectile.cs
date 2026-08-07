@@ -13,13 +13,25 @@ public class Lvl3Projectile : Projectile
     }
     protected override void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Enemy"))
+        if (collision.gameObject.CompareTag("Enemy") && !hasHit)
         {
             //Stuff it does when it gets hit
-            hasHit = true;
+            if (Random.value < 0.5f)
+            {
+                hasHit = true;
+            }
+            else
+            {
+                Destroy(gameObject);
+            }
         }
         if (collision.gameObject.CompareTag("Player") && hasHit)
         {
+            PlayerManager player = collision.gameObject.GetComponent<PlayerManager>();
+            if (player != null)
+            {
+                player.AddShell(2, 1);
+            }
             Destroy(gameObject);
         }
     }

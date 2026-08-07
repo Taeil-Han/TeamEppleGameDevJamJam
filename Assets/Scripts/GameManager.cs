@@ -4,7 +4,6 @@ public class GameManager : MonoBehaviour
 {
     //Player Management Vars
     [SerializeField] GameObject playerPrefab;
-    private int[] numOfShells = new int[5] { 10, 0, 0, 0, 0 };
 
     //General Vars
     private bool isGameLost = false;
@@ -31,4 +30,6 @@ public class GameManager : MonoBehaviour
     {
         
     }
+
+
 }

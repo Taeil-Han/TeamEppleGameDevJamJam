@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2206372560267516741}
   - component: {fileID: 3824945012897534417}
   - component: {fileID: 6346715995302721261}
+  - component: {fileID: -4428805127772705768}
   m_Layer: 0
   m_Name: Sally(Player)
   m_TagString: Player
@@ -110,6 +111,7 @@ MonoBehaviour:
   maxX: 8
   aimLineSprite: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
   aimEndSprite: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
+  aimOffsetY: 0.25
   spacing: 0.6
   spriteRotationOffset: -90
   firerate: 0.3
@@ -153,7 +155,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.002501279, y: -0.088798806}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -163,5 +165,32 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.96498054, y: 0.7673719}
   m_EdgeRadius: 0
+--- !u!50 &-4428805127772705768
+Rigidbody2D:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7238234776569028247}
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 1
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 0
