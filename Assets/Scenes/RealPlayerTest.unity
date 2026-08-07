@@ -314,6 +314,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1680426828841715410, guid: a3e452dcefced644eb8b6ec6888fc096, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -2413806693520163455, guid: ebe73ca9363db456bacf42c025bb4847, type: 3}
     - target: {fileID: 4321849636803421103, guid: a3e452dcefced644eb8b6ec6888fc096, type: 3}
       propertyPath: m_Name
       value: Projectile
@@ -379,6 +383,14 @@ PrefabInstance:
       propertyPath: projectile
       value: 
       objectReference: {fileID: 1624868474}
+    - target: {fileID: 3824945012897534417, guid: 6a8382a5cbe164546a204c4aa27e5baa, type: 3}
+      propertyPath: aimEndSprite
+      value: 
+      objectReference: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
+    - target: {fileID: 3824945012897534417, guid: 6a8382a5cbe164546a204c4aa27e5baa, type: 3}
+      propertyPath: aimLineSprite
+      value: 
+      objectReference: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
     - target: {fileID: 7238234776569028247, guid: 6a8382a5cbe164546a204c4aa27e5baa, type: 3}
       propertyPath: m_Name
       value: Sally(Player)
