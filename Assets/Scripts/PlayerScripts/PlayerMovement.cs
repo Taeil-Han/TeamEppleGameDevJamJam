@@ -10,15 +10,19 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] float minX = -8f;
     [SerializeField] float maxX = 8f;
     
-
+    //Aiming and Firerate
+    private List<GameObject> aimLineObjects = new List<GameObject>();
     [SerializeField] GameObject aimLineSprite;
     [SerializeField] GameObject aimEndSprite;
     [SerializeField] float spacing = 0.3f;
     [SerializeField] float spriteRotationOffset = -90;
     [SerializeField] float firerate = 0.3f;
     private float nextFireTime = 0f;
-
-    private List<GameObject> aimLineObjects = new List<GameObject>();
+    
+    //Shell Organization
+    [SerializeField] GameObject[] bulletPrefabs = new GameObject[5];
+    private int currentShellIndex = 0;
+    
 
     //Dragging
     private bool isDragging = false;
@@ -64,6 +68,21 @@ public class PlayerMovement : MonoBehaviour
             }
             isDragging = false;
             ClearAimLine();
+        }
+
+        float scroll = Input.mouseScrollDelta.y;
+
+        if (scroll > 0f)
+        {
+            currentShellIndex++;
+            if (currentShellIndex >= bulletPrefabs.Length)
+                currentShellIndex = 0;
+        }
+        else if (scroll < 0f)
+        {
+            currentShellIndex--;
+            if (currentShellIndex < 0)
+                currentShellIndex = bulletPrefabs.Length - 1;
         }
 
     }

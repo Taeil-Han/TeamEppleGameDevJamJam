@@ -107,6 +107,6 @@ MonoBehaviour:
   maxX: 8
   aimLineSprite: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
   aimEndSprite: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
-  spacing: 0.3
+  spacing: 0.6
   spriteRotationOffset: -90
   firerate: 0.3
