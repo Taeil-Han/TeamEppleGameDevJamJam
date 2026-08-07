@@ -119,6 +119,12 @@ public class PlayerManager : MonoBehaviour
         return pos;
     }
 
+    Quaternion GetRotation(Vector3 startPos, Vector3 endPos) 
+    {
+        Vector3 direction = (endPos - startPos).normalized;
+        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        return Quaternion.Euler(0, 0, angle);
+    }
 
     #region Aim Methods
     public void Aim(Vector3 startPos, Vector3 endPos) //Starts all Aim
@@ -166,25 +172,27 @@ public class PlayerManager : MonoBehaviour
     public void Shoot(Vector3 startPos, Vector3 endPos, int currShell) 
     {
         startPos.y = startPos.y + aimOffsetY;
+        Quaternion rotation = GetRotation(startPos, endPos);
+
         if (Time.time < nextFireTime) { return; }
 
         switch (currShell)
         {
             case 1:
-                GameObject obj2 = Instantiate(lvl2proj, startPos, Quaternion.identity);
+                GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
                 Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
                 proj2.Init(startPos, endPos);
                 numOfShells[1] -= 1;
                 break;
             case 2:
-                GameObject obj3 = Instantiate(lvl3proj, startPos, Quaternion.identity);
+                GameObject obj3 = Instantiate(lvl3proj, startPos, rotation);
                 Lvl3Projectile proj3 = obj3.GetComponent<Lvl3Projectile>();
                 proj3.Init(startPos, endPos);
                 proj3.SetTarget(transform);
                 numOfShells[2] -= 1;
                 break;
             default:
-                GameObject obj = Instantiate(lvl1proj, startPos, Quaternion.identity);
+                GameObject obj = Instantiate(lvl1proj, startPos, rotation);
                 Lvl1Projectile proj = obj.GetComponent<Lvl1Projectile>();
                 proj.Init(startPos, endPos);
                 numOfShells[0] -= 1;
@@ -199,7 +207,8 @@ public class PlayerManager : MonoBehaviour
     {
         if (currentShellIndex != 1) { return; }
         startPos.y = startPos.y + aimOffsetY;
-        GameObject obj2 = Instantiate(lvl2proj, startPos, Quaternion.identity);
+        Quaternion rotation = GetRotation(startPos, endPos);
+        GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
         Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
         proj2.Init(startPos, endPos, percent);
         numOfShells[1] -= 1;
