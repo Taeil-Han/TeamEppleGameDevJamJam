@@ -19,6 +19,7 @@ public class Lvl3Projectile : Projectile
             if (Random.value < 0.5f)
             {
                 hasHit = true;
+                gameObject.layer = LayerMask.NameToLayer("ClamReturning");
             }
             else
             {

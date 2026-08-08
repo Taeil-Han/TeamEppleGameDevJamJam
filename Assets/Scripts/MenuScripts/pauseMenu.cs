@@ -3,7 +3,7 @@ using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 using TMPro;
 
-public class pauseMenu : MonoBehaviour
+public class PauseMenu : MonoBehaviour
 {
     public GameObject bgPanel;
     public static bool isPaused = false;
@@ -30,10 +30,10 @@ public class pauseMenu : MonoBehaviour
 
     public void Up1()
     {
-        if (scoreManager.Instance != null)
+        if (ScoreManager.Instance != null)
         {
-            if (scoreManager.Instance.money < shellCosts[0] || lvl != 0) return;
-            scoreManager.Instance.SubtractMoney(shellCosts[0]);
+            if (ScoreManager.Instance.money < shellCosts[0] || lvl != 0) return;
+            ScoreManager.Instance.SubtractMoney(shellCosts[0]);
             lvl = 1;
             RefreshUB();
         }
@@ -41,10 +41,10 @@ public class pauseMenu : MonoBehaviour
 
     public void Up2()
     {
-        if (scoreManager.Instance != null)
+        if (ScoreManager.Instance != null)
         {
-            if (scoreManager.Instance.money < shellCosts[1] || lvl != 1) return;
-            scoreManager.Instance.SubtractMoney(shellCosts[1]);
+            if (ScoreManager.Instance.money < shellCosts[1] || lvl != 1) return;
+            ScoreManager.Instance.SubtractMoney(shellCosts[1]);
             lvl = 2;
             RefreshUB();
         }
@@ -52,10 +52,10 @@ public class pauseMenu : MonoBehaviour
 
     public void Up3()
     {
-        if (scoreManager.Instance != null)
+        if (ScoreManager.Instance != null)
         {
-            if (scoreManager.Instance.money < shellCosts[2] || lvl != 2) return;
-            scoreManager.Instance.SubtractMoney(shellCosts[2]);
+            if (ScoreManager.Instance.money < shellCosts[2] || lvl != 2) return;
+            ScoreManager.Instance.SubtractMoney(shellCosts[2]);
             lvl = 3;
             RefreshUB();
         }

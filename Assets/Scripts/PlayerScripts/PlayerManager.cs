@@ -50,7 +50,7 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        if (pauseMenu.isPaused)
+        if (PauseMenu.isPaused)
         {
             return;
         }

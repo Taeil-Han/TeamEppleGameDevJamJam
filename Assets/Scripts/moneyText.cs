@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-public class moneyText : MonoBehaviour
+public class MoneyText : MonoBehaviour
 {
     public TextMeshProUGUI moneyT;
     void Start()
@@ -13,11 +13,11 @@ public class moneyText : MonoBehaviour
     }
     void UpdateMoney()
     {
-        if (scoreManager.Instance == null)
+        if (ScoreManager.Instance == null)
         {
             moneyT.text = "Money: $0.00";
             return;
         }
-        moneyT.text = "Money: $" + scoreManager.Instance.money.ToString("F2");
+        moneyT.text = "Money: $" + ScoreManager.Instance.money.ToString("F2");
     }
 }

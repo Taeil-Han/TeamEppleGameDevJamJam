@@ -2,7 +2,7 @@ using UnityEngine;
 using TMPro;
 using System.Collections;
 
-public class customer : MonoBehaviour
+public class Customer : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
     public SpriteRenderer spriteRenderer;
@@ -33,11 +33,11 @@ public class customer : MonoBehaviour
         if (collision.gameObject.CompareTag("Store"))
         {
             shootable = false;
-            if (scoreManager.Instance != null)
+            if (ScoreManager.Instance != null)
             {
-                scoreManager.Instance.SubtractScore(7);
-                scoreManager.Instance.SubtractMoney(2.00f);
-                Debug.Log(scoreManager.Instance.score);
+                ScoreManager.Instance.SubtractScore(7);
+                ScoreManager.Instance.SubtractMoney(2.00f);
+                Debug.Log(ScoreManager.Instance.score);
             }
             Destroy(gameObject);
         } else if (collision.gameObject.CompareTag("Clam") || collision.gameObject.CompareTag("Cone") || collision.gameObject.CompareTag("Sundial")) {
@@ -45,11 +45,11 @@ public class customer : MonoBehaviour
             if (collision.gameObject.CompareTag(order))
             {
                 //Correct
-                if (scoreManager.Instance != null)
+                if (ScoreManager.Instance != null)
                 {
-                    scoreManager.Instance.AddScore(5);
-                    scoreManager.Instance.AddMoney(1.50f);
-                    Debug.Log(scoreManager.Instance.score);
+                    ScoreManager.Instance.AddScore(5);
+                    ScoreManager.Instance.AddMoney(1.50f);
+                    Debug.Log(ScoreManager.Instance.score);
                 }
                 StartCoroutine(Thankful());
 
@@ -57,11 +57,11 @@ public class customer : MonoBehaviour
             else
             {
                 //Penalty
-                if (scoreManager.Instance != null)
+                if (ScoreManager.Instance != null)
                 {
-                    scoreManager.Instance.SubtractScore(5);
-                    scoreManager.Instance.SubtractMoney(1.00f);
-                    Debug.Log(scoreManager.Instance.score);
+                    ScoreManager.Instance.SubtractScore(5);
+                    ScoreManager.Instance.SubtractMoney(1.00f);
+                    Debug.Log(ScoreManager.Instance.score);
                 }
                 StartCoroutine(Hater());
 

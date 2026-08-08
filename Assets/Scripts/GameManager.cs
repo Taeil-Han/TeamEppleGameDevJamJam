@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
 {
@@ -8,8 +9,12 @@ public class GameManager : MonoBehaviour
 
     //General Vars
     private bool isGameLost = false;
-    private bool isGamePaused = false;
     private bool isGameWon = false;
+    private bool isGamePlaying;
+    private bool isGamePaused = false;
+
+    //Score and Money
+    ScoreManager scoreManagerInst;
 
     //Enemy Management Vars
     [SerializeField] GameObject customerSpawner;
@@ -25,12 +30,16 @@ public class GameManager : MonoBehaviour
 
     void Start()
     {
+        isGamePlaying = true;
         playerInstance = Instantiate(playerPrefab, new Vector3(0, -4, 0), Quaternion.identity);
         customerSpawnerInstance = Instantiate(customerSpawner, new Vector3(0, 0, 0), Quaternion.identity);
-        if (scoreManager.Instance != null)
+        scoreManagerInst = ScoreManager.Instance;
+
+
+        if (scoreManagerInst != null)
         {
-            scoreManager.Instance.ResetScore();
-            scoreManager.Instance.ResetMoney();
+            scoreManagerInst.ResetScore();
+            scoreManagerInst.ResetMoney();
         }
     }
 
@@ -38,7 +47,7 @@ public class GameManager : MonoBehaviour
     void Update()
     {
         PlayerManager pm = playerInstance.GetComponent<PlayerManager>();
-        customerSpawner cs = customerSpawnerInstance.GetComponent<customerSpawner>();
+        CustomerSpawner cs = customerSpawnerInstance.GetComponent<CustomerSpawner>();
         if (Input.GetKey(KeyCode.Z))
         { 
             if (pm != null && cs != null && wavelvl == 1)
@@ -53,12 +62,33 @@ public class GameManager : MonoBehaviour
                 UnlockLvl();
             }
         }
+        CheckWinCondition();
+    }
+
+    public void CheckWinCondition()
+    {
+        if (scoreManagerInst == null) 
+        {
+            Debug.Log("ScoreManager is null");
+            return;
+        }
+        if (scoreManagerInst.money < 0) 
+        { 
+            isGameLost = true;
+            //TODO: ADD GAMING LOSING LOGIC
+            Debug.Log("YOU LOSEEEEE");
+        }
+        if (scoreManagerInst.money >= winAmount) 
+        { 
+            isGameWon = true;
+            //TODO: ADD GAMING WINNING LOGIC
+        }
     }
 
     public void UnlockLvl() 
     {
         PlayerManager pm = playerInstance.GetComponent<PlayerManager>();
-        customerSpawner cs = customerSpawnerInstance.GetComponent<customerSpawner>();
+        CustomerSpawner cs = customerSpawnerInstance.GetComponent<CustomerSpawner>();
 
         wavelvl++;
         pm.UnlockShell(wavelvl);

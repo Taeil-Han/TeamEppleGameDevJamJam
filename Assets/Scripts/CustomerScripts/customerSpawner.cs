@@ -1,7 +1,7 @@
 using UnityEngine;
 using System.Collections;
 
-public class customerSpawner : MonoBehaviour
+public class CustomerSpawner : MonoBehaviour
 {
     public GameObject customerPrefab;
     [SerializeField] float spawnTimeMIN = 0.5f;
@@ -21,7 +21,7 @@ public class customerSpawner : MonoBehaviour
             yield return new WaitForSeconds(Random.Range(spawnTimeMIN, spawnTimeMAX));
             Vector3 spawnPos = new Vector3(Random.Range(xMIN,xMAX), ySTART, 0f);
             GameObject newCustomer = Instantiate(customerPrefab, spawnPos, Quaternion.identity);
-            newCustomer.GetComponent<customer>().order = orderGacha[Random.Range(0, orderGacha.Length)];
+            newCustomer.GetComponent<Customer>().order = orderGacha[Random.Range(0, orderGacha.Length)];
         }
     }
 

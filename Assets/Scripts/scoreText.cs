@@ -13,11 +13,11 @@ public class scoreText : MonoBehaviour
     }
     void UpdateScore()
     {
-        if (scoreManager.Instance == null)
+        if (ScoreManager.Instance == null)
         {
             scoreT.text = "Score: 0";
             return;
         }
-        scoreT.text = "Score: " + scoreManager.Instance.score;
+        scoreT.text = "Score: " + ScoreManager.Instance.score;
     }
 }

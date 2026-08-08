@@ -1,8 +1,8 @@
 using UnityEngine;
 
-public class scoreManager : MonoBehaviour
+public class ScoreManager : MonoBehaviour
 {
-    public static scoreManager Instance;
+    public static ScoreManager Instance;
     public int score = 0;
     public float money = 0f;
     void Awake()
