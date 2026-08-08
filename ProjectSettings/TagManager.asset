@@ -9,6 +9,7 @@ TagManager:
   - Clam
   - Cone
   - Sundial
+  - PlayerBullet
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - 
   - Water
   - UI
-  - 
-  - 
+  - ClamReturning
+  - Player
   - 
   - 
   - 
@@ -55,10 +56,13 @@ TagManager:
   - name: Aim
     uniqueID: 2603467977
     locked: 0
+  - name: Enemy
+    uniqueID: 1799159167
+    locked: 0
   - name: Projectiles
     uniqueID: 1767986835
     locked: 0
-  - name: People
+  - name: Player
     uniqueID: 3314977327
     locked: 0
   - name: UI
