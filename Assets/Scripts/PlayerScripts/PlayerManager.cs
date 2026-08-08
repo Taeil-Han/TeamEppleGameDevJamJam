@@ -34,6 +34,10 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] float maxChargeTime = 2f; // fully charged at 2 seconds
     private float chargeStartTime;
     private bool isCharging = false;
+    [SerializeField] GameObject chargeVisualPrefab;
+    [SerializeField] float minScaleY = 0.5f;
+    [SerializeField] float maxScaleY = 2f;
+    private GameObject currentChargeVisual;
 
     //Dragging
     private bool isDragging = false;
@@ -63,7 +67,7 @@ public class PlayerManager : MonoBehaviour
         Vector3 currPos = GetMouseWorldPos();
 
         //LEFT-CLICK AND HOVER
-        if (myY + aimOffsetY < currPos.y) //Clamps Angle
+        if (myY + aimOffsetY < currPos.y && !isCharging) //Clamps Angle
         {
             ClearAimLine();
             Aim(pos, currPos);
@@ -83,6 +87,14 @@ public class PlayerManager : MonoBehaviour
             isCharging = true;
         }
 
+        if (isCharging && Input.GetMouseButton(1))
+        {
+            ClearAimLine();
+            float chargeDuration = Time.time - chargeStartTime;
+            float chargePercent = Mathf.Clamp01(chargeDuration / maxChargeTime);
+            ChargeAim(pos, currPos, chargePercent);
+        }
+
         if (Input.GetMouseButtonUp(1))
         {
             if (isCharging)
@@ -92,6 +104,11 @@ public class PlayerManager : MonoBehaviour
                 ChargeShot(pos, currPos, currentShellIndex, chargePercent);
                 Debug.Log(chargePercent);
                 isCharging = false;
+            }
+            if (currentChargeVisual != null)
+            {
+                Destroy(currentChargeVisual);
+                currentChargeVisual = null;
             }
         }
 
@@ -110,6 +127,7 @@ public class PlayerManager : MonoBehaviour
             if (currentShellIndex < 0)
                 currentShellIndex = bulletPrefabs.Length - 1;
         }
+        Debug.Log(currentShellIndex);
     }
 
     Vector3 GetMouseWorldPos()
@@ -123,7 +141,7 @@ public class PlayerManager : MonoBehaviour
     {
         Vector3 direction = (endPos - startPos).normalized;
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-        return Quaternion.Euler(0, 0, angle);
+        return Quaternion.Euler(0, 0, angle + spriteRotationOffset);
     }
 
     #region Aim Methods
@@ -137,7 +155,7 @@ public class PlayerManager : MonoBehaviour
     {
         start.y = start.y + aimOffsetY;
         Vector3 direction = (end - start).normalized;
-        float distance = Vector3.Distance(start, end);
+        float distance = 3f;
 
         // Calculate rotation angle so sprites face along the line
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
@@ -151,8 +169,27 @@ public class PlayerManager : MonoBehaviour
             GameObject piece = Instantiate(aimLineSprite, spawnPos, rotation);
             aimLineObjects.Add(piece);
         }
-        GameObject endPiece = Instantiate(aimEndSprite, end, rotation);
+        GameObject endPiece = Instantiate(aimEndSprite, start + direction * (distance + 0.3f), rotation);
         aimLineObjects.Add(endPiece);
+    }
+
+    public void ChargeAim(Vector3 startPos, Vector3 endPos, float chargePercentage) 
+    {
+        startPos.y = startPos.y + aimOffsetY;
+        Quaternion rotation = GetRotation(startPos, endPos);
+
+        if (currentChargeVisual == null)
+        {
+            currentChargeVisual = Instantiate(chargeVisualPrefab, startPos, Quaternion.identity);
+        }
+
+        currentChargeVisual.transform.position = startPos;
+        currentChargeVisual.transform.rotation = rotation;
+
+        float scaleY = Mathf.Lerp(minScaleY, maxScaleY, chargePercentage);
+        Vector3 newScale = currentChargeVisual.transform.localScale;
+        newScale.y = scaleY;
+        currentChargeVisual.transform.localScale = newScale;
     }
 
     public void ClearAimLine() //Clears Aim Line

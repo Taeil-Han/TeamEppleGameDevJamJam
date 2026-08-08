@@ -2,14 +2,15 @@ using UnityEngine;
 
 public class customer : MonoBehaviour
 {
-    public float speed = 5f;
+    [SerializeField] float speed = 1f;
 
-    private void OnTriggerEnter2D(Collider2D obj) {
-        if (obj.CompareTag("Store"))
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Store"))
         {
             Debug.Log("Robbed");
             Destroy(gameObject);
-        } else if (obj.CompareTag("PlayerBullet")) {
+        } else if (collision.gameObject.CompareTag("PlayerBullet")) {
             if (scoreManager.Instance != null)
             {
                 scoreManager.Instance.AddScore(5);

@@ -76,8 +76,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -979989969
+  m_SortingLayer: 5
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -116,11 +116,14 @@ MonoBehaviour:
   spriteRotationOffset: -90
   firerate: 0.3
   bulletPrefabs:
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
-  - {fileID: 0}
+  - {fileID: 2715939753769870036, guid: 305d882a8b021b546ac7fad9a9c2e04d, type: 3}
+  - {fileID: 8506943839726325857, guid: d992f932502163143adc9567b8b316a3, type: 3}
+  - {fileID: 5835718694065596627, guid: e1e3dd13a4489794fb863057510d2a02, type: 3}
+  minChargeTime: 0
+  maxChargeTime: 2
+  chargeVisualPrefab: {fileID: 7573444161069988351, guid: 47ef3652a93731049a4de24c2c0063e6, type: 3}
+  minScaleY: 0.3
+  maxScaleY: 0.8
 --- !u!61 &6346715995302721261
 BoxCollider2D:
   m_ObjectHideFlags: 0
