@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 393279133590640597}
   m_Layer: 0
   m_Name: ConeShell
-  m_TagString: PlayerBullet
+  m_TagString: Cone
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

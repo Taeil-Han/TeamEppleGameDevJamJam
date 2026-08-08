@@ -50,6 +50,10 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
+        if (pauseMenu.isPaused)
+        {
+            return;
+        }
         float direction = 0f;
         if (Input.GetKey(KeyCode.A))
             direction = -1f;
@@ -127,7 +131,7 @@ public class PlayerManager : MonoBehaviour
             if (currentShellIndex < 0)
                 currentShellIndex = bulletPrefabs.Length - 1;
         }
-        Debug.Log(currentShellIndex);
+        //Debug.Log(currentShellIndex);
     }
 
     Vector3 GetMouseWorldPos()

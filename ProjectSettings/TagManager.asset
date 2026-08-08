@@ -6,7 +6,9 @@ TagManager:
   tags:
   - Store
   - Enemy
-  - PlayerBullet
+  - Clam
+  - Cone
+  - Sundial
   layers:
   - Default
   - TransparentFX
@@ -58,6 +60,9 @@ TagManager:
     locked: 0
   - name: People
     uniqueID: 3314977327
+    locked: 0
+  - name: UI
+    uniqueID: 932788119
     locked: 0
   m_RenderingLayers:
   - Default

@@ -23,6 +23,11 @@ public class GameManager : MonoBehaviour
     void Start()
     {
         Instantiate(playerPrefab, new Vector3(0, -4, 0), Quaternion.identity);
+        if (scoreManager.Instance != null)
+        {
+            scoreManager.Instance.ResetScore();
+            scoreManager.Instance.ResetMoney();
+        }
     }
 
     // Update is called once per frame
