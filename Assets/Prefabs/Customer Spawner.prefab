@@ -44,9 +44,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1626c5741e449e44d9ac2082d7403051, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  customer: {fileID: 5015523277938528966, guid: d4283aba4785f064eb3edcc399451d0c, type: 3}
-  spawnTimeMIN: 2
-  spawnTimeMAX: 3
+  customerPrefab: {fileID: 5015523277938528966, guid: d4283aba4785f064eb3edcc399451d0c, type: 3}
+  spawnTimeMIN: 0.5
+  spawnTimeMAX: 0.7
   xMIN: -8
   xMAX: 8
   ySTART: 7

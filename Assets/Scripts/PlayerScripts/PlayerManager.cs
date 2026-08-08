@@ -24,7 +24,7 @@ public class PlayerManager : MonoBehaviour
     private float nextFireTime = 0f;
     
     //Shell Organization
-    [SerializeField] GameObject[] bulletPrefabs = new GameObject[3]; //Change for 5 bullets if time permits
+    [SerializeField] GameObject[] bulletPrefabs; //Change for 5 bullets if time permits
     private int[] numOfShells = new int[3] { 10, 100, 100};
     private int currentShellIndex = 0;
     private int unlockedShell = 0;
@@ -45,7 +45,7 @@ public class PlayerManager : MonoBehaviour
 
     void Start()
     {
-        
+        bulletPrefabs = new GameObject[1] { lvl1proj };
     }
 
     void Update()
@@ -260,6 +260,19 @@ public class PlayerManager : MonoBehaviour
     public void AddShell(int shellIndex, int amount)
     {
         numOfShells[shellIndex] += amount;
+    }
+
+    public void UnlockShell(int shellLvl) 
+    {
+        if (shellLvl == 2) 
+        {
+            bulletPrefabs = new GameObject[2] { lvl1proj, lvl2proj };
+        }
+        if (shellLvl == 3)
+        {
+            bulletPrefabs = new GameObject[3] { lvl1proj, lvl2proj, lvl3proj };
+        }
+
     }
     #endregion
 }

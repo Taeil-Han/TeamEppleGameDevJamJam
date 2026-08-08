@@ -4,12 +4,12 @@ using System.Collections;
 public class customerSpawner : MonoBehaviour
 {
     public GameObject customerPrefab;
-    public float spawnTimeMIN = 0.5f;
-    public float spawnTimeMAX = 2.5f;
-    public float xMIN = -6f;
-    public float xMAX = 6f;
-    public float ySTART = 7f;
-    public string[] orderGacha = { "Clam", "Cone", "Sundial" };
+    [SerializeField] float spawnTimeMIN = 0.5f;
+    [SerializeField] float spawnTimeMAX = 2.5f;
+    [SerializeField] float xMIN = -6f;
+    [SerializeField] float xMAX = 6f;
+    [SerializeField] float ySTART = 7f;
+    private string[] orderGacha = { "Sundial" };
 
     void Start()
     {
@@ -22,6 +22,18 @@ public class customerSpawner : MonoBehaviour
             Vector3 spawnPos = new Vector3(Random.Range(xMIN,xMAX), ySTART, 0f);
             GameObject newCustomer = Instantiate(customerPrefab, spawnPos, Quaternion.identity);
             newCustomer.GetComponent<customer>().order = orderGacha[Random.Range(0, orderGacha.Length)];
+        }
+    }
+
+    public void UnlockCustomer(int lvl) 
+    {
+        if (lvl == 2)
+        {
+            orderGacha = new string[] { "Sundial", "Cone" };
+        }
+        if (lvl == 3)
+        {
+            orderGacha = new string[] { "Sundial", "Cone", "Clam" };
         }
     }
 }
