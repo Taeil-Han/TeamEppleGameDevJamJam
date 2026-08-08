@@ -6,6 +6,7 @@ public class GameManager : MonoBehaviour
     //Player Management Vars
     [SerializeField] GameObject playerPrefab;
     private GameObject playerInstance;
+    private PlayerManager playerManager;
 
     //General Vars
     private bool isGameLost = false;
@@ -14,7 +15,10 @@ public class GameManager : MonoBehaviour
     private bool isGamePaused = false;
 
     //Score and Money
-    ScoreManager scoreManagerInst;
+    [SerializeField] GameObject playerUIPrefab;
+    private PlayerUI playerUI;
+    private ScoreManager scoreManagerInst;
+    
 
     //Enemy Management Vars
     [SerializeField] GameObject customerSpawner;
@@ -32,7 +36,11 @@ public class GameManager : MonoBehaviour
     {
         isGamePlaying = true;
         playerInstance = Instantiate(playerPrefab, new Vector3(0, -4, 0), Quaternion.identity);
+        playerManager = playerInstance.GetComponent<PlayerManager>();
         customerSpawnerInstance = Instantiate(customerSpawner, new Vector3(0, 0, 0), Quaternion.identity);
+        GameObject uiInstance = Instantiate(playerUIPrefab);
+        playerUI = uiInstance.GetComponent<PlayerUI>();
+        playerUI.Init(playerManager);
         scoreManagerInst = ScoreManager.Instance;
 
 

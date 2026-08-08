@@ -1,16 +1,34 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerUI : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [SerializeField] Image ammoIcon;
+    [SerializeField] Sprite[] ammoSprites;
+    [SerializeField] TMP_Text ammoCountTMP;
+    private PlayerManager player;
+    private int[] numOfShells;
+
+    public void Init(PlayerManager playerRef)
     {
-        
+        player = playerRef;
     }
 
-    // Update is called once per frame
     void Update()
     {
-        
+        if (player == null) return;
+        int index = player.GetAmmoIndex();
+        if (index >= 0 && index < ammoSprites.Length)
+        {
+            ammoIcon.sprite = ammoSprites[index];
+        }
+        numOfShells = player.GetAmmoCount();
+        ChangeAmmoCount(index);
+    }
+
+    public void ChangeAmmoCount(int index)
+    {
+        ammoCountTMP.SetText(numOfShells[index].ToString());
     }
 }

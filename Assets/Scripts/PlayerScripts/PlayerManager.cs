@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
@@ -134,6 +135,7 @@ public class PlayerManager : MonoBehaviour
         //Debug.Log(currentShellIndex);
     }
 
+    #region General Stuff
     Vector3 GetMouseWorldPos()
     {
         Vector3 pos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
@@ -147,6 +149,20 @@ public class PlayerManager : MonoBehaviour
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         return Quaternion.Euler(0, 0, angle + spriteRotationOffset);
     }
+    #endregion
+
+    #region Getters and Setters
+    public int GetAmmoIndex() 
+    { 
+        return currentShellIndex;
+    }
+
+    public int[] GetAmmoCount()
+    {
+        return numOfShells;
+    }
+
+    #endregion
 
     #region Aim Methods
     public void Aim(Vector3 startPos, Vector3 endPos) //Starts all Aim
