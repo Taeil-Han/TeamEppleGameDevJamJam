@@ -47,6 +47,6 @@ MonoBehaviour:
   customerPrefab: {fileID: 5015523277938528966, guid: d4283aba4785f064eb3edcc399451d0c, type: 3}
   spawnTimeMIN: 0.5
   spawnTimeMAX: 0.7
-  xMIN: -8
-  xMAX: 8
+  xMIN: -6
+  xMAX: 6
   ySTART: 7

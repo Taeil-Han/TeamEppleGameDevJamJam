@@ -2709,18 +2709,26 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1753594172869407178, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -175
+      objectReference: {fileID: 0}
     - target: {fileID: 2721881130419701347, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
       propertyPath: m_Name
       value: PlayerUI
       objectReference: {fileID: 0}
     - target: {fileID: 2721881130419701347, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5922995737083335494, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 356381318}
+    - target: {fileID: 7626797408675476907, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -2732,10 +2740,10 @@ SceneRoots:
   m_Roots:
   - {fileID: 356381319}
   - {fileID: 4193932}
+  - {fileID: 1831457133}
   - {fileID: 117374503}
+  - {fileID: 28084521}
   - {fileID: 107984492}
   - {fileID: 2124023358386882036}
-  - {fileID: 1831457133}
-  - {fileID: 28084521}
   - {fileID: 1496398989}
   - {fileID: 8538739794250941107}

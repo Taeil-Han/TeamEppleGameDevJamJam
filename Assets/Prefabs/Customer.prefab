@@ -184,7 +184,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 514ddb614417c51498a02a6ac5d6392a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 2
+  speed: 0.5
   spriteRenderer: {fileID: 2752533980824167134}
   opinion: {fileID: 5300732477122722845}
   speechDuration: 0.5
