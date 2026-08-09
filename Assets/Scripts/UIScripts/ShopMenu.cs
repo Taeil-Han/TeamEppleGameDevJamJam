@@ -30,12 +30,16 @@ public class ShopMenu : MonoBehaviour
     private Color available = new Color(255f / 255f, 233f / 255f, 144f / 255f);
     private Color purchased = Color.gray;
     private Color lockedColor = new Color(0.35f, 0.35f, 0.35f, 1f);
-    public int lvl = 1;
+    public int lvl = 0;
 
     //Text
     [SerializeField] TMP_Text moneyTMP;
     [SerializeField] TMP_Text button2TMP;
     [SerializeField] TMP_Text button3TMP;
+
+    [SerializeField] GameObject lvl1Block;
+    [SerializeField] GameObject lvl2Block;
+    [SerializeField] GameObject lvl3Block;
 
     void Awake()
     {
@@ -67,7 +71,7 @@ public class ShopMenu : MonoBehaviour
 
     public void BuyLvl1()
     {
-        if (ScoreManager.Instance.money < shellCost1) return;
+        if (ScoreManager.Instance.money < shellCost1 || lvl < 1) return;
         ScoreManager.Instance.SubtractMoney(shellCost1);
         PlayerManager.Instance.AddShell(0, 10);
     }
@@ -91,9 +95,9 @@ public class ShopMenu : MonoBehaviour
     {
         if (ScoreManager.Instance != null)
         {
-            if (ScoreManager.Instance.money < upgradeCost1 || lvl != 1) return;
+            if (ScoreManager.Instance.money < upgradeCost1 || lvl != 0) return;
             ScoreManager.Instance.SubtractMoney(upgradeCost1);
-            lvl = 2;
+            lvl = 1;
             RefreshUB();
         }
     }
@@ -102,9 +106,9 @@ public class ShopMenu : MonoBehaviour
     {
         if (ScoreManager.Instance != null)
         {
-            if (ScoreManager.Instance.money < upgradeCost2 || lvl != 2) return;
+            if (ScoreManager.Instance.money < upgradeCost2 || lvl != 1) return;
             ScoreManager.Instance.SubtractMoney(upgradeCost2);
-            lvl = 3;
+            lvl = 2;
             uiImage.sprite = sprites[1];
             PlayerManager.Instance.UnlockShell(2);
             CustomerSpawner.Instance.UnlockCustomer(2);
@@ -116,9 +120,9 @@ public class ShopMenu : MonoBehaviour
     {
         if (ScoreManager.Instance != null)
         {
-            if (ScoreManager.Instance.money < upgradeCost3 || lvl != 3) return;
+            if (ScoreManager.Instance.money < upgradeCost3 || lvl != 2) return;
             ScoreManager.Instance.SubtractMoney(upgradeCost3);
-            lvl = 4;
+            lvl = 3;
             uiImage.sprite = sprites[2];
             PlayerManager.Instance.UnlockShell(3);
             CustomerSpawner.Instance.UnlockCustomer(3);
@@ -150,9 +154,12 @@ public class ShopMenu : MonoBehaviour
 
     void RefreshUB()
     {
-        UBState(up1B, up1I, up1T, lvl == 1, lvl >= 2);
-        UBState(up2B, up2I, up2T, lvl == 2, lvl >= 3);
-        UBState(up3B, up3I, up3T, lvl == 3, lvl >= 4);
+        UBState(up1B, up1I, up1T, lvl == 0, lvl >= 1);
+        lvl1Block.SetActive(lvl==0);
+        UBState(up2B, up2I, up2T, lvl == 1, lvl >= 2);
+        lvl2Block.SetActive(lvl < 2);
+        UBState(up3B, up3I, up3T, lvl == 2, lvl >= 3);
+        lvl3Block.SetActive(lvl < 3);
     }
 
     void UBState(Button button, Image image, TMP_Text text, bool avail, bool bought)
