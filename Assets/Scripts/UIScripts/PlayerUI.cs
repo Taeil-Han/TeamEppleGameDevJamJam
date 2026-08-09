@@ -28,7 +28,7 @@ public class PlayerUI : MonoBehaviour
     void Update()
     {
         if (player == null || gameManager == null) { return; }
-        if (Input.GetKeyDown(KeyCode.E))
+        if (Input.GetKeyDown(KeyCode.E) && !PauseMenu1.isPaused)
         {
             if (ShopMenu.isShopOpen)
             {
