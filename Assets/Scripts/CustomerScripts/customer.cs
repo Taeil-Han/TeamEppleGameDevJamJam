@@ -13,7 +13,6 @@ public class Customer : MonoBehaviour
     private float turtleSpd = 1f;
     private float otterSpd = 1.25f;
     private float sealSpd = 1.75f;
-     
 
     void Start()
     {
@@ -66,7 +65,7 @@ public class Customer : MonoBehaviour
                     ScoreManager.Instance.SubtractMoney(25.00f);
                 }
             }
-            Destroy(gameObject);
+            StartCoroutine(Robbed());
         } else if (collision.gameObject.CompareTag("Clam") || collision.gameObject.CompareTag("Cone") || collision.gameObject.CompareTag("Sundial")) {
             shootable = false;
             if (collision.gameObject.CompareTag(order))
@@ -158,6 +157,18 @@ public class Customer : MonoBehaviour
         yield return new WaitForSeconds(speechDuration / 2);
         speed = -1f;
         yield return new WaitForSeconds(speechDuration / 2);
+        Destroy(gameObject);
+    }
+
+    IEnumerator Robbed()
+    {
+        StoreQuake.Instance.Shake();
+        opinion.text = "Clammed";
+        opinion.gameObject.SetActive(true);
+        speed = 0;
+        yield return new WaitForSeconds(speechDuration / 2);
+        speed = -10f;
+        yield return new WaitForSeconds(speechDuration * 2);
         Destroy(gameObject);
     }
 
