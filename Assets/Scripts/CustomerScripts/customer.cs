@@ -33,11 +33,29 @@ public class Customer : MonoBehaviour
         if (collision.gameObject.CompareTag("Store"))
         {
             shootable = false;
-            if (ScoreManager.Instance != null)
+            //robber
+            if (ScoreManager.Instance != null && ShopMenu.Instance != null) 
             {
-                ScoreManager.Instance.SubtractScore(7);
-                ScoreManager.Instance.SubtractMoney(2.00f);
-                Debug.Log(ScoreManager.Instance.score);
+                if (ShopMenu.Instance.lvl == 1)
+                {
+                    ScoreManager.Instance.SubtractScore(2);
+                    ScoreManager.Instance.SubtractMoney(2.50f);
+                }
+                else if (ShopMenu.Instance.lvl == 2)
+                {
+                    ScoreManager.Instance.SubtractScore(5);
+                    ScoreManager.Instance.SubtractMoney(5.00f);
+                }
+                else if (ShopMenu.Instance.lvl == 3)
+                {
+                    ScoreManager.Instance.SubtractScore(15);
+                    ScoreManager.Instance.SubtractMoney(15.00f);
+                }
+                else if (ShopMenu.Instance.lvl == 4)
+                {
+                    ScoreManager.Instance.SubtractScore(25);
+                    ScoreManager.Instance.SubtractMoney(25.00f);
+                }
             }
             Destroy(gameObject);
         } else if (collision.gameObject.CompareTag("Clam") || collision.gameObject.CompareTag("Cone") || collision.gameObject.CompareTag("Sundial")) {
@@ -45,11 +63,28 @@ public class Customer : MonoBehaviour
             if (collision.gameObject.CompareTag(order))
             {
                 //Correct
-                if (ScoreManager.Instance != null)
+                if (ScoreManager.Instance != null && ShopMenu.Instance != null)
                 {
-                    ScoreManager.Instance.AddScore(5);
-                    ScoreManager.Instance.AddMoney(1.50f);
-                    Debug.Log(ScoreManager.Instance.score);
+                    if(ShopMenu.Instance.lvl == 1)
+                    {
+                        ScoreManager.Instance.AddScore(5);
+                        ScoreManager.Instance.AddMoney(5.00f);
+                    } else if (ShopMenu.Instance.lvl == 2)
+                    {
+                        ScoreManager.Instance.AddScore(10);
+                        ScoreManager.Instance.AddMoney(10.00f);
+                    }
+                    else if (ShopMenu.Instance.lvl == 3)
+                    {
+                        ScoreManager.Instance.AddScore(30);
+                        ScoreManager.Instance.AddMoney(30.00f);
+                    }
+                    else if (ShopMenu.Instance.lvl == 4)
+                    {
+                        ScoreManager.Instance.AddScore(50);
+                        ScoreManager.Instance.AddMoney(50.00f);
+                    }
+                    
                 }
                 StartCoroutine(Thankful());
 
@@ -57,11 +92,29 @@ public class Customer : MonoBehaviour
             else
             {
                 //Penalty
-                if (ScoreManager.Instance != null)
+                if (ScoreManager.Instance != null && ShopMenu.Instance != null)
                 {
-                    ScoreManager.Instance.SubtractScore(5);
-                    ScoreManager.Instance.SubtractMoney(1.00f);
-                    Debug.Log(ScoreManager.Instance.score);
+                    if (ShopMenu.Instance.lvl == 1)
+                    {
+                        ScoreManager.Instance.SubtractScore(2);
+                        ScoreManager.Instance.SubtractMoney(2.50f);
+                    }
+                    else if (ShopMenu.Instance.lvl == 2)
+                    {
+                        ScoreManager.Instance.SubtractScore(5);
+                        ScoreManager.Instance.SubtractMoney(5.00f);
+                    }
+                    else if (ShopMenu.Instance.lvl == 3)
+                    {
+                        ScoreManager.Instance.SubtractScore(15);
+                        ScoreManager.Instance.SubtractMoney(15.00f);
+                    }
+                    else if (ShopMenu.Instance.lvl == 4)
+                    {
+                        ScoreManager.Instance.SubtractScore(25);
+                        ScoreManager.Instance.SubtractMoney(25.00f);
+                    }
+
                 }
                 StartCoroutine(Hater());
 

@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerManager : MonoBehaviour
 {
+    public static PlayerManager Instance;
     [SerializeField] Sprite playerSprite;
     [SerializeField] GameObject lvl1proj;
     [SerializeField] GameObject lvl2proj;
@@ -43,6 +44,10 @@ public class PlayerManager : MonoBehaviour
     //Dragging
     private bool isDragging = false;
 
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {
@@ -51,7 +56,7 @@ public class PlayerManager : MonoBehaviour
 
     void Update()
     {
-        if (PauseMenu.isPaused)
+        if (ShopMenu.isShopOpen)
         {
             return;
         }
@@ -236,23 +241,31 @@ public class PlayerManager : MonoBehaviour
         switch (currShell)
         {
             case 1:
-                GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
-                Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
-                proj2.Init(startPos, endPos);
-                numOfShells[1] -= 1;
+                if (numOfShells[1] > 0) { 
+                    GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
+                    Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
+                    proj2.Init(startPos, endPos);
+                    numOfShells[1] -= 1;
+                }
                 break;
             case 2:
-                GameObject obj3 = Instantiate(lvl3proj, startPos, rotation);
-                Lvl3Projectile proj3 = obj3.GetComponent<Lvl3Projectile>();
-                proj3.Init(startPos, endPos);
-                proj3.SetTarget(transform);
-                numOfShells[2] -= 1;
+                if (numOfShells[2] > 0)
+                {
+                    GameObject obj3 = Instantiate(lvl3proj, startPos, rotation);
+                    Lvl3Projectile proj3 = obj3.GetComponent<Lvl3Projectile>();
+                    proj3.Init(startPos, endPos);
+                    proj3.SetTarget(transform);
+                    numOfShells[2] -= 1;
+                }
                 break;
             default:
-                GameObject obj = Instantiate(lvl1proj, startPos, rotation);
-                Lvl1Projectile proj = obj.GetComponent<Lvl1Projectile>();
-                proj.Init(startPos, endPos);
-                numOfShells[0] -= 1;
+                if (numOfShells[0] > 0)
+                {
+                    GameObject obj = Instantiate(lvl1proj, startPos, rotation);
+                    Lvl1Projectile proj = obj.GetComponent<Lvl1Projectile>();
+                    proj.Init(startPos, endPos);
+                    numOfShells[0] -= 1;
+                }
                 break;
         }
         

@@ -4,12 +4,18 @@ using System.Collections;
 public class CustomerSpawner : MonoBehaviour
 {
     public GameObject customerPrefab;
+    public static CustomerSpawner Instance;
     [SerializeField] float spawnTimeMIN = 0.5f;
     [SerializeField] float spawnTimeMAX = 2.5f;
     [SerializeField] float xMIN = -6f;
     [SerializeField] float xMAX = 6f;
     [SerializeField] float ySTART = 7f;
     private string[] orderGacha = { "Sundial" };
+
+    void Awake()
+    {
+        Instance = this;
+    }
 
     void Start()
     {

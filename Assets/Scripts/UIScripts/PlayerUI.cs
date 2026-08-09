@@ -7,7 +7,8 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] Image ammoIcon;
     [SerializeField] Sprite[] ammoSprites;
     [SerializeField] TMP_Text ammoCountTMP;
-    [SerializeField] TMP_Text waveTMP;
+    //[SerializeField] TMP_Text waveTMP;
+    [SerializeField] GameObject shopButton;
     private PlayerManager player;
     private GameManager gameManager;
     private ShopMenu shopMenu;
@@ -36,7 +37,7 @@ public class PlayerUI : MonoBehaviour
         {
             ChangeAmmoCount(index);
         }
-        waveTMP.SetText("Stage Lvl: " + gameManager.wavelvl.ToString());
+        //waveTMP.SetText("Stage Lvl: " + gameManager.wavelvl.ToString());
 
         if (Input.GetKeyDown(KeyCode.R)) //TODO MAKE SURE IT DOES NOT CONFLICT WITH PAUSE SCREEN
         {
@@ -51,6 +52,7 @@ public class PlayerUI : MonoBehaviour
 
     public void OpenShop() 
     { 
-        shopMenu.isShopOpen = true;
+        ShopMenu.isShopOpen = true;
+        shopButton.SetActive(false);
     }
 }
