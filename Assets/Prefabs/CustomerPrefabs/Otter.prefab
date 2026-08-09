@@ -34,8 +34,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -248.36, y: -199.26}
-  m_SizeDelta: {x: 89.0457, y: 39.4633}
+  m_AnchoredPosition: {x: -247.08151, y: -199.26}
+  m_SizeDelta: {x: 199.6689, y: 39.4633}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &5201251725664667652
 CanvasRenderer:
@@ -186,9 +186,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   spriteRenderer: {fileID: 2752533980824167134}
-  turtleSpr: {fileID: 0}
-  otterSpr: {fileID: 0}
-  SealSpr: {fileID: 0}
   opinion: {fileID: 5300732477122722845}
   speechDuration: 0.5
   order: Clam
