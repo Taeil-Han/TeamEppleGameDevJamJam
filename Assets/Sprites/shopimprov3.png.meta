@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 2206b8a4b25f5a34c9f4f8b92a01ae50
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -3319201962125497589
+    second: shopimprov3_0
+  - first:
+      213: 3735183403838428499
+    second: shopimprov3_1
+  - first:
+      213: 3584028312227994013
+    second: shopimprov3_2
+  - first:
+      213: 2664671855891972669
+    second: shopimprov3_3
+  - first:
+      213: -8975611409489608484
+    second: shopimprov3_4
+  - first:
+      213: -5002524605651621190
+    second: shopimprov3_5
+  - first:
+      213: 6626797213957853394
+    second: shopimprov3_6
+  - first:
+      213: -2394221492178230183
+    second: shopimprov3_7
+  - first:
+      213: -4543447940989268627
+    second: shopimprov3_8
+  - first:
+      213: -8673337912909374402
+    second: shopimprov3_9
+  - first:
+      213: -1361507656615209797
+    second: shopimprov3_10
+  - first:
+      213: -6976286871012464602
+    second: shopimprov3_11
+  - first:
+      213: 1296108166642562088
+    second: shopimprov3_12
+  - first:
+      213: -510017722533768183
+    second: shopimprov3_13
+  - first:
+      213: -4365532527373732684
+    second: shopimprov3_14
+  - first:
+      213: 2489806590239529885
+    second: shopimprov3_15
+  - first:
+      213: -2850448524966115786
+    second: shopimprov3_16
+  - first:
+      213: 3955140031313424318
+    second: shopimprov3_17
+  - first:
+      213: -4311594178025686642
+    second: shopimprov3_18
+  - first:
+      213: -7370366469525284825
+    second: shopimprov3_19
+  - first:
+      213: -9028985725453609471
+    second: shopimprov3_20
+  - first:
+      213: 4959443278412371882
+    second: shopimprov3_21
+  - first:
+      213: -5490424894892988580
+    second: shopimprov3_22
+  - first:
+      213: 9170470913297759060
+    second: shopimprov3_23
+  - first:
+      213: -4190485323197116557
+    second: shopimprov3_24
+  - first:
+      213: 6714012698667726030
+    second: shopimprov3_25
+  - first:
+      213: 6806090227094131752
+    second: shopimprov3_26
+  - first:
+      213: -5533509387853541880
+    second: shopimprov3_27
+  - first:
+      213: 5589887532957985156
+    second: shopimprov3_28
+  - first:
+      213: 2864862603340491335
+    second: shopimprov3_29
+  - first:
+      213: -3877464693062668906
+    second: shopimprov3_30
+  - first:
+      213: -1073845101969357748
+    second: shopimprov3_31
+  - first:
+      213: 7137204938795891359
+    second: shopimprov3_32
+  - first:
+      213: -2155273392924869337
+    second: shopimprov3_33
+  - first:
+      213: -1402662886404477909
+    second: shopimprov3_34
+  - first:
+      213: 4986211605604449831
+    second: shopimprov3_35
+  - first:
+      213: -6301353213469152135
+    second: shopimprov3_36
+  - first:
+      213: -6782480972203375783
+    second: shopimprov3_37
+  - first:
+      213: 1238738431899243380
+    second: shopimprov3_38
+  - first:
+      213: -7018395781819319203
+    second: shopimprov3_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: shopimprov3_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 349
+        width: 2064
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0beabdb663dfe1d0800000000000000
+      internalID: -3319201962125497589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1934
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35559b4148906d330800000000000000
+      internalID: 3735183403838428499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_2
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 1939
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d99da4fc2c60db130800000000000000
+      internalID: 3584028312227994013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_3
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1723
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d320c655fe0daf420800000000000000
+      internalID: 2664671855891972669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_4
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1406
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd0cd675af8307380800000000000000
+      internalID: -8975611409489608484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_5
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1196
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaebfb2066739ab0800000000000000
+      internalID: -5002524605651621190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_6
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1113
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d09180b4fc17fb50800000000000000
+      internalID: 6626797213957853394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1033
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9546c1dec3406ced0800000000000000
+      internalID: -2394221492178230183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_8
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1036
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6dcadd7b2e62f0c0800000000000000
+      internalID: -4543447940989268627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_9
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1022
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cdb1c1f1d12a780800000000000000
+      internalID: -8673337912909374402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_10
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1000
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb4d978fff3fa1de0800000000000000
+      internalID: -1361507656615209797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_11
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 991
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628a4128d004f2f90800000000000000
+      internalID: -6976286871012464602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_12
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 986
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 824763fa283bcf110800000000000000
+      internalID: 1296108166642562088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_13
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 977
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9049833659d0ce8f0800000000000000
+      internalID: -510017722533768183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_14
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 934
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b4b972cb438a63c0800000000000000
+      internalID: -4365532527373732684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_15
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 933
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9b57aaf6e19d8220800000000000000
+      internalID: 2489806590239529885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 894
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636cbda3b2c2178d0800000000000000
+      internalID: -2850448524966115786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_17
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 876
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebf2d5b37ea73e630800000000000000
+      internalID: 3955140031313424318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_18
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 882
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89f22b50f32a24c0800000000000000
+      internalID: -4311594178025686642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_19
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 862
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728de7feeb237b990800000000000000
+      internalID: -7370366469525284825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_20
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 851
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 106d340025992b280800000000000000
+      internalID: -9028985725453609471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_21
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 854
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa7d77da26b73d440800000000000000
+      internalID: 4959443278412371882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_22
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 839
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5721f9c5a71ec3b0800000000000000
+      internalID: -5490424894892988580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_23
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 841
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45b3a2a55be044f70800000000000000
+      internalID: 9170470913297759060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_24
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 764
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f095afcc768d5c0800000000000000
+      internalID: -4190485323197116557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_25
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 759
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec43d812af6fc2d50800000000000000
+      internalID: 6714012698667726030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_26
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 751
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82414375007147e50800000000000000
+      internalID: 6806090227094131752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_27
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 739
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80e43bf87860533b0800000000000000
+      internalID: -5533509387853541880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_28
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 716
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48968504815439d40800000000000000
+      internalID: 5589887532957985156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_29
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 701
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74a296aeb5902c720800000000000000
+      internalID: 2864862603340491335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 615
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69d61e4c76a703ac0800000000000000
+      internalID: -3877464693062668906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 620
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c44c259b19fe811f0800000000000000
+      internalID: -1073845101969357748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 563
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9ab71ac3127c0360800000000000000
+      internalID: 7137204938795891359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 553
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72dbcdca44ee612e0800000000000000
+      internalID: -2155273392924869337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_34
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 532
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2cac34598db88ce0800000000000000
+      internalID: -1402662886404477909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_35
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 353
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72ebbf68905923540800000000000000
+      internalID: 4986211605604449831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_36
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 355
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97ca7ea63a81d88a0800000000000000
+      internalID: -6301353213469152135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_37
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 355
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 953c8fbad79cfd1a0800000000000000
+      internalID: -6782480972203375783
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_38
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 354
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4739afa6a02e03110800000000000000
+      internalID: 1238738431899243380
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: shopimprov3_39
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 340
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5c3f83b836a99e90800000000000000
+      internalID: -7018395781819319203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      shopimprov3_0: -3319201962125497589
+      shopimprov3_1: 3735183403838428499
+      shopimprov3_10: -1361507656615209797
+      shopimprov3_11: -6976286871012464602
+      shopimprov3_12: 1296108166642562088
+      shopimprov3_13: -510017722533768183
+      shopimprov3_14: -4365532527373732684
+      shopimprov3_15: 2489806590239529885
+      shopimprov3_16: -2850448524966115786
+      shopimprov3_17: 3955140031313424318
+      shopimprov3_18: -4311594178025686642
+      shopimprov3_19: -7370366469525284825
+      shopimprov3_2: 3584028312227994013
+      shopimprov3_20: -9028985725453609471
+      shopimprov3_21: 4959443278412371882
+      shopimprov3_22: -5490424894892988580
+      shopimprov3_23: 9170470913297759060
+      shopimprov3_24: -4190485323197116557
+      shopimprov3_25: 6714012698667726030
+      shopimprov3_26: 6806090227094131752
+      shopimprov3_27: -5533509387853541880
+      shopimprov3_28: 5589887532957985156
+      shopimprov3_29: 2864862603340491335
+      shopimprov3_3: 2664671855891972669
+      shopimprov3_30: -3877464693062668906
+      shopimprov3_31: -1073845101969357748
+      shopimprov3_32: 7137204938795891359
+      shopimprov3_33: -2155273392924869337
+      shopimprov3_34: -1402662886404477909
+      shopimprov3_35: 4986211605604449831
+      shopimprov3_36: -6301353213469152135
+      shopimprov3_37: -6782480972203375783
+      shopimprov3_38: 1238738431899243380
+      shopimprov3_39: -7018395781819319203
+      shopimprov3_4: -8975611409489608484
+      shopimprov3_5: -5002524605651621190
+      shopimprov3_6: 6626797213957853394
+      shopimprov3_7: -2394221492178230183
+      shopimprov3_8: -4543447940989268627
+      shopimprov3_9: -8673337912909374402
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,1170 @@
+fileFormatVersion: 2
+guid: 385b04e529233e54e911f5c74b12372d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 3973904794924029243
+    second: soppimprov1_0
+  - first:
+      213: -8166811440647185684
+    second: soppimprov1_1
+  - first:
+      213: 6485814886467713563
+    second: soppimprov1_2
+  - first:
+      213: 1367608642347810583
+    second: soppimprov1_3
+  - first:
+      213: -5109081560574360175
+    second: soppimprov1_4
+  - first:
+      213: -4649963908401404274
+    second: soppimprov1_5
+  - first:
+      213: 7096640822722848524
+    second: soppimprov1_6
+  - first:
+      213: -7491033637205745071
+    second: soppimprov1_7
+  - first:
+      213: 5715402020215347814
+    second: soppimprov1_8
+  - first:
+      213: 6604525855538065825
+    second: soppimprov1_9
+  - first:
+      213: 8367768594162918181
+    second: soppimprov1_10
+  - first:
+      213: 230479101956231274
+    second: soppimprov1_11
+  - first:
+      213: -3794297739125937837
+    second: soppimprov1_12
+  - first:
+      213: -6943351997477855460
+    second: soppimprov1_13
+  - first:
+      213: 7542619340939880146
+    second: soppimprov1_14
+  - first:
+      213: 3309658231270975717
+    second: soppimprov1_15
+  - first:
+      213: -8133669928122512632
+    second: soppimprov1_16
+  - first:
+      213: -3108485832832186644
+    second: soppimprov1_17
+  - first:
+      213: -6652265085838129544
+    second: soppimprov1_18
+  - first:
+      213: -8969413531364598655
+    second: soppimprov1_19
+  - first:
+      213: 729361334026343655
+    second: soppimprov1_20
+  - first:
+      213: 7941173877575006162
+    second: soppimprov1_21
+  - first:
+      213: -6873524295155890600
+    second: soppimprov1_22
+  - first:
+      213: 5388616629123429282
+    second: soppimprov1_23
+  - first:
+      213: -6381541605873038250
+    second: soppimprov1_24
+  - first:
+      213: 6962155416914221053
+    second: soppimprov1_25
+  - first:
+      213: -6021015851079439168
+    second: soppimprov1_26
+  - first:
+      213: 974171054803008744
+    second: soppimprov1_27
+  - first:
+      213: 6975759182850663432
+    second: soppimprov1_28
+  - first:
+      213: 2131336564959126301
+    second: soppimprov1_29
+  - first:
+      213: -2558948824413328703
+    second: soppimprov1_30
+  - first:
+      213: 6878941224850785617
+    second: soppimprov1_31
+  - first:
+      213: 6367873685419797811
+    second: soppimprov1_32
+  - first:
+      213: 3675624159228913388
+    second: soppimprov1_33
+  - first:
+      213: -3065660428888674601
+    second: soppimprov1_34
+  - first:
+      213: 6926070284891860944
+    second: soppimprov1_35
+  - first:
+      213: -3662115848254633194
+    second: soppimprov1_36
+  - first:
+      213: -4566426604758966490
+    second: soppimprov1_37
+  - first:
+      213: 4254749908094827349
+    second: soppimprov1_38
+  - first:
+      213: 1189154960306434591
+    second: soppimprov1_39
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: soppimprov1_0
+      rect:
+        serializedVersion: 2
+        x: 56
+        y: 349
+        width: 2064
+        height: 1600
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b351ba83b55262730800000000000000
+      internalID: 3973904794924029243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1934
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cead0aca348a9ae80800000000000000
+      internalID: -8166811440647185684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_2
+      rect:
+        serializedVersion: 2
+        x: 1777
+        y: 1939
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a39d2a64e320a50800000000000000
+      internalID: 6485814886467713563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_3
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1723
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f35e670d8baf210800000000000000
+      internalID: 1367608642347810583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_4
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 1406
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1958775c365e819b0800000000000000
+      internalID: -5109081560574360175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_5
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1196
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e86e85d3672087fb0800000000000000
+      internalID: -4649963908401404274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_6
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 1113
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c076ee88a355c7260800000000000000
+      internalID: 7096640822722848524
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_7
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 1033
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15269dd98908a0890800000000000000
+      internalID: -7491033637205745071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_8
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1036
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66a5c7b1bdf215f40800000000000000
+      internalID: 5715402020215347814
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_9
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 1022
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a1ba39f54df7ab50800000000000000
+      internalID: 6604525855538065825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_10
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 1000
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52320c9b339402470800000000000000
+      internalID: 8367768594162918181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_11
+      rect:
+        serializedVersion: 2
+        x: 2109
+        y: 991
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a609048a583d23300800000000000000
+      internalID: 230479101956231274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_12
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 986
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 359a45f2f42f75bc0800000000000000
+      internalID: -3794297739125937837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_13
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 977
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1f55df452244af90800000000000000
+      internalID: -6943351997477855460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_14
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 934
+        width: 11
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d666bcf354cca860800000000000000
+      internalID: 7542619340939880146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_15
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 933
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e8aad240a44eed20800000000000000
+      internalID: 3309658231270975717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_16
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 894
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b0bfd5b466f1f80800000000000000
+      internalID: -8133669928122512632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_17
+      rect:
+        serializedVersion: 2
+        x: 2068
+        y: 876
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce604b0ca907cd4d0800000000000000
+      internalID: -3108485832832186644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_18
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 882
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87682ee46286ea3a0800000000000000
+      internalID: -6652265085838129544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_19
+      rect:
+        serializedVersion: 2
+        x: 2071
+        y: 862
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 18c5e6b4aed368380800000000000000
+      internalID: -8969413531364598655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_20
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 851
+        width: 11
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e49b8bd4463f1a00800000000000000
+      internalID: 729361334026343655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_21
+      rect:
+        serializedVersion: 2
+        x: 2110
+        y: 854
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d738784197b43e60800000000000000
+      internalID: 7941173877575006162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_22
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 839
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 856473032165c90a0800000000000000
+      internalID: -6873524295155890600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_23
+      rect:
+        serializedVersion: 2
+        x: 2086
+        y: 841
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a33aa9264638ca40800000000000000
+      internalID: 5388616629123429282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_24
+      rect:
+        serializedVersion: 2
+        x: 2062
+        y: 764
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65ccf8668b53077a0800000000000000
+      internalID: -6381541605873038250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_25
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 759
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df7db30f67b8e9060800000000000000
+      internalID: 6962155416914221053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_26
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 751
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cce961fbfd017ca0800000000000000
+      internalID: -6021015851079439168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_27
+      rect:
+        serializedVersion: 2
+        x: 2084
+        y: 739
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ec3008b963f48d00800000000000000
+      internalID: 974171054803008744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_28
+      rect:
+        serializedVersion: 2
+        x: 2064
+        y: 716
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 804ab748400eec060800000000000000
+      internalID: 6975759182850663432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_29
+      rect:
+        serializedVersion: 2
+        x: 2069
+        y: 701
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d13a0334057049d10800000000000000
+      internalID: 2131336564959126301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_30
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 615
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1caa0722a99cc7cd0800000000000000
+      internalID: -2558948824413328703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_31
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 620
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 155850a0998e67f50800000000000000
+      internalID: 6878941224850785617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_32
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 563
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33d2102e06b3f5850800000000000000
+      internalID: 6367873685419797811
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_33
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 553
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce6eea2d2b0720330800000000000000
+      internalID: 3675624159228913388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_34
+      rect:
+        serializedVersion: 2
+        x: 61
+        y: 532
+        width: 9
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7de6e1e15169475d0800000000000000
+      internalID: -3065660428888674601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_35
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 353
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df2e5c6a385e1060800000000000000
+      internalID: 6926070284891860944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_36
+      rect:
+        serializedVersion: 2
+        x: 1660
+        y: 355
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61b447ae90d8d2dc0800000000000000
+      internalID: -3662115848254633194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_37
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 355
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62fd27a623bc0a0c0800000000000000
+      internalID: -4566426604758966490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_38
+      rect:
+        serializedVersion: 2
+        x: 1787
+        y: 354
+        width: 11
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55b3e10bf78eb0b30800000000000000
+      internalID: 4254749908094827349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: soppimprov1_39
+      rect:
+        serializedVersion: 2
+        x: 1693
+        y: 340
+        width: 14
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1275ffc22ab08010800000000000000
+      internalID: 1189154960306434591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      soppimprov1_0: 3973904794924029243
+      soppimprov1_1: -8166811440647185684
+      soppimprov1_10: 8367768594162918181
+      soppimprov1_11: 230479101956231274
+      soppimprov1_12: -3794297739125937837
+      soppimprov1_13: -6943351997477855460
+      soppimprov1_14: 7542619340939880146
+      soppimprov1_15: 3309658231270975717
+      soppimprov1_16: -8133669928122512632
+      soppimprov1_17: -3108485832832186644
+      soppimprov1_18: -6652265085838129544
+      soppimprov1_19: -8969413531364598655
+      soppimprov1_2: 6485814886467713563
+      soppimprov1_20: 729361334026343655
+      soppimprov1_21: 7941173877575006162
+      soppimprov1_22: -6873524295155890600
+      soppimprov1_23: 5388616629123429282
+      soppimprov1_24: -6381541605873038250
+      soppimprov1_25: 6962155416914221053
+      soppimprov1_26: -6021015851079439168
+      soppimprov1_27: 974171054803008744
+      soppimprov1_28: 6975759182850663432
+      soppimprov1_29: 2131336564959126301
+      soppimprov1_3: 1367608642347810583
+      soppimprov1_30: -2558948824413328703
+      soppimprov1_31: 6878941224850785617
+      soppimprov1_32: 6367873685419797811
+      soppimprov1_33: 3675624159228913388
+      soppimprov1_34: -3065660428888674601
+      soppimprov1_35: 6926070284891860944
+      soppimprov1_36: -3662115848254633194
+      soppimprov1_37: -4566426604758966490
+      soppimprov1_38: 4254749908094827349
+      soppimprov1_39: 1189154960306434591
+      soppimprov1_4: -5109081560574360175
+      soppimprov1_5: -4649963908401404274
+      soppimprov1_6: 7096640822722848524
+      soppimprov1_7: -7491033637205745071
+      soppimprov1_8: 5715402020215347814
+      soppimprov1_9: 6604525855538065825
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

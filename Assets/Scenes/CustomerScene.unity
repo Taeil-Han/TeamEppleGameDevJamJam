@@ -537,6 +537,7 @@ MonoBehaviour:
   playerPrefab: {fileID: 7238234776569028247, guid: 6a8382a5cbe164546a204c4aa27e5baa, type: 3}
   playerUIPrefab: {fileID: 2721881130419701347, guid: edcbc22ec7386794d9d0cac3edfe7bd1, type: 3}
   customerSpawner: {fileID: 8542594319799853471, guid: eb7c7b55b763a5b4da5592e4d19f129a, type: 3}
+  wavelvl: 1
 --- !u!4 &117374503
 Transform:
   m_ObjectHideFlags: 0
