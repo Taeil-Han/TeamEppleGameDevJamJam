@@ -23,7 +23,7 @@ public class GameManager : MonoBehaviour
     //Enemy Management Vars
     [SerializeField] GameObject customerSpawner;
     private GameObject customerSpawnerInstance;
-    int wavelvl = 1;
+    public int wavelvl = 1;
 
     //Shop Vars
     private double shopFunds = 0;
@@ -40,7 +40,7 @@ public class GameManager : MonoBehaviour
         customerSpawnerInstance = Instantiate(customerSpawner, new Vector3(0, 0, 0), Quaternion.identity);
         GameObject uiInstance = Instantiate(playerUIPrefab);
         playerUI = uiInstance.GetComponent<PlayerUI>();
-        playerUI.Init(playerManager);
+        playerUI.Init(playerManager, this);
         scoreManagerInst = ScoreManager.Instance;
 
 
