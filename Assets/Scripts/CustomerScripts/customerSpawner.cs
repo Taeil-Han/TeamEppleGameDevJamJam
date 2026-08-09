@@ -5,6 +5,9 @@ public class CustomerSpawner : MonoBehaviour
 {
     public GameObject customerPrefab;
     public static CustomerSpawner Instance;
+    [SerializeField] GameObject turtlePrefab;
+    [SerializeField] GameObject otterPrefab;
+    [SerializeField] GameObject sealPrefab;
     [SerializeField] float spawnTimeMIN = 0.5f;
     [SerializeField] float spawnTimeMAX = 2.5f;
     [SerializeField] float xMIN = -6f;
@@ -26,8 +29,23 @@ public class CustomerSpawner : MonoBehaviour
         while(true) {
             yield return new WaitForSeconds(Random.Range(spawnTimeMIN, spawnTimeMAX));
             Vector3 spawnPos = new Vector3(Random.Range(xMIN,xMAX), ySTART, 0f);
-            GameObject newCustomer = Instantiate(customerPrefab, spawnPos, Quaternion.identity);
-            newCustomer.GetComponent<Customer>().order = orderGacha[Random.Range(0, orderGacha.Length)];
+            string order = orderGacha[Random.Range(0, orderGacha.Length)];
+            switch (order) 
+            {
+                case "Cone":
+                    GameObject otterCustomer = Instantiate(otterPrefab, spawnPos, Quaternion.identity);
+                    otterCustomer.GetComponent<Customer>().order = order;
+                    break;
+                case "Clam":
+                    GameObject sealCustomer = Instantiate(sealPrefab, spawnPos, Quaternion.identity);
+                    sealCustomer.GetComponent<Customer>().order = order;
+                    break;
+
+                default:
+                    GameObject turtleCustomer = Instantiate(turtlePrefab, spawnPos, Quaternion.identity);
+                    turtleCustomer.GetComponent<Customer>().order = order;
+                    break;
+            }
         }
     }
 

@@ -45,8 +45,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   customerPrefab: {fileID: 5015523277938528966, guid: d4283aba4785f064eb3edcc399451d0c, type: 3}
-  spawnTimeMIN: 0.5
-  spawnTimeMAX: 0.7
-  xMIN: -6
-  xMAX: 6
-  ySTART: 7
+  turtlePrefab: {fileID: 5015523277938528966, guid: 8ce72f86611b1b640bd3f122555a32af, type: 3}
+  otterPrefab: {fileID: 5015523277938528966, guid: 973464c0038826a48b0df7f5d9f8c067, type: 3}
+  sealPrefab: {fileID: 5015523277938528966, guid: 1c047f93cc2e18b448463bd59b221f29, type: 3}
+  spawnTimeMIN: 0.8
+  spawnTimeMAX: 2
+  xMIN: -5.6
+  xMAX: 5.6
+  ySTART: 5.5

@@ -14,7 +14,9 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] float speed = 5f;
     [SerializeField] float minX = -8f;
     [SerializeField] float maxX = 8f;
-    
+    [SerializeField] float minShootX = -6;
+    [SerializeField] float maxShootX = 6;
+
     //Aiming and Firerate
     private List<GameObject> aimLineObjects = new List<GameObject>();
     [SerializeField] GameObject aimLineSprite;
@@ -82,7 +84,7 @@ public class PlayerManager : MonoBehaviour
             ClearAimLine();
             Aim(pos, currPos);
         }
-        if (Input.GetMouseButtonDown(0) && !isCharging) 
+        if (Input.GetMouseButtonDown(0) && !isCharging && currPos.x >= minShootX && currPos.x <= maxShootX) 
         {
             if (myY + aimOffsetY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
@@ -107,7 +109,11 @@ public class PlayerManager : MonoBehaviour
 
         if (Input.GetMouseButtonUp(1))
         {
-            if (isCharging)
+            if (currPos.x <= minShootX && currPos.x >= maxShootX && isCharging)
+            {
+                isCharging = false;
+            }
+            else if (isCharging)
             {
                 float chargeDuration = Time.time - chargeStartTime;
                 float chargePercent = Mathf.Clamp01(chargeDuration / maxChargeTime);

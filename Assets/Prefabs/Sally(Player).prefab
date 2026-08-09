@@ -77,7 +77,7 @@ SpriteRenderer:
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: -979989969
-  m_SortingLayer: 5
+  m_SortingLayer: 6
   m_SortingOrder: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -107,8 +107,10 @@ MonoBehaviour:
   lvl2proj: {fileID: 8506943839726325857, guid: d992f932502163143adc9567b8b316a3, type: 3}
   lvl3proj: {fileID: 5835718694065596627, guid: e1e3dd13a4489794fb863057510d2a02, type: 3}
   speed: 7
-  minX: -8
-  maxX: 8
+  minX: -5.6
+  maxX: 5.6
+  minShootX: -6.3
+  maxShootX: 6.3
   aimLineSprite: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
   aimEndSprite: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
   aimOffsetY: 0.25

@@ -8,9 +8,12 @@ public class Customer : MonoBehaviour
     public SpriteRenderer spriteRenderer;
     public TMP_Text opinion;
     public float speechDuration = 0.5f;
-    public string order = "Clam";
+    public string order;
     private bool shootable = true;
-
+    private float turtleSpd = 1f;
+    private float otterSpd = 1.25f;
+    private float sealSpd = 1.75f;
+     
 
     void Start()
     {
@@ -19,11 +22,17 @@ public class Customer : MonoBehaviour
         if(spriteRenderer != null)
         {
             if (order == "Clam")
-                spriteRenderer.color = Color.magenta;
+            {
+                speed = sealSpd;
+            }
             else if (order == "Cone")
-                spriteRenderer.color = Color.cyan;
-            else if (order == "Sundial")
-                spriteRenderer.color = Color.yellow;
+            {
+                speed = otterSpd;
+            }
+            else if (order == "Sundial") 
+            {
+                speed = turtleSpd;
+            }
         }
     }
 

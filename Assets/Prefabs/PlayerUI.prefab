@@ -123,7 +123,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: BuyLvl2
+        m_MethodName: UpgradeLvl2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -330,9 +330,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LVL2
-
-    FREE'
+  m_text: $10
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -526,7 +524,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: UpgradeLvl3
+        m_MethodName: BuyLvl3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -601,7 +599,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 2 for $75
+  m_text: $750
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -931,7 +929,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: BuyLvl1
+        m_MethodName: UpgradeLvl1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -953,7 +951,7 @@ GameObject:
   - component: {fileID: 1829589122877231816}
   - component: {fileID: 6976066409713570348}
   m_Layer: 0
-  m_Name: Text (TMP) (4)
+  m_Name: Money
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1274,7 +1272,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 5 for $50
+  m_text: $200
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -1468,7 +1466,10 @@ MonoBehaviour:
   - {fileID: -568262363950177568, guid: 095a71b4c91d59a4898ab0e702a8d2e9, type: 3}
   - {fileID: -6566388695151300548, guid: 5ac1fbfaf6f2ae4478a0e6e9d5b6f52c, type: 3}
   ammoCountTMP: {fileID: 5070819925019456102}
+  waveTMP: {fileID: 7497196372144354087}
   shopButton: {fileID: 1484991022871050079}
+  scoreTMP: {fileID: 1445795458347901529}
+  moneyTMP: {fileID: 6976066409713570348}
 --- !u!1 &2802119700560599819
 GameObject:
   m_ObjectHideFlags: 0
@@ -1534,9 +1535,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LVL 3
-
-    $200'
+  m_text: $50
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -1708,7 +1707,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: $10 for 10
+  m_text: Free!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -1791,7 +1790,7 @@ GameObject:
   - component: {fileID: 4185811948306209082}
   - component: {fileID: 1445795458347901529}
   m_Layer: 0
-  m_Name: Text (TMP) (3)
+  m_Name: Score
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2060,9 +2059,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'LVL 4
-
-    $750'
+  m_text: $75
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -2501,7 +2498,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: UpgradeLvl2
+        m_MethodName: BuyLvl2
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2867,7 +2864,7 @@ GameObject:
   - component: {fileID: 5586342792913335558}
   - component: {fileID: 7497196372144354087}
   m_Layer: 0
-  m_Name: Text (TMP) (2)
+  m_Name: Wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -3523,7 +3520,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: BuyLvl3
+        m_MethodName: UpgradeLvl3
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3666,15 +3663,15 @@ MonoBehaviour:
   shellCost3: 75
   uiImage: {fileID: 6633028874239859619}
   shopButton: {fileID: 1484991022871050079}
-  up1B: {fileID: 4178316624815532984}
-  up2B: {fileID: 2442728717557224371}
-  up3B: {fileID: 3848035794198380776}
-  up1I: {fileID: 9096044665885665117}
-  up2I: {fileID: 8293428979557632010}
-  up3I: {fileID: 2052785981943993513}
-  up1T: {fileID: 3038343458195770444}
-  up2T: {fileID: 7665903120464740796}
-  up3T: {fileID: 4341525809062220640}
+  up1B: {fileID: 1199040727367188685}
+  up2B: {fileID: 3914382973629920125}
+  up3B: {fileID: 6105926259280899735}
+  up1I: {fileID: 354863276411682973}
+  up2I: {fileID: 8391339980925641398}
+  up3I: {fileID: 783634776117707674}
+  up1T: {fileID: 5692675753540144464}
+  up2T: {fileID: 77801499641449301}
+  up3T: {fileID: 9084258319075131538}
   available: {r: 1, g: 1, b: 1, a: 1}
   purchased: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   lockedColor: {r: 0.35, g: 0.35, b: 0.35, a: 1}
@@ -3805,7 +3802,7 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 7533717840758413240}
         m_TargetAssemblyTypeName: ShopMenu, Assembly-CSharp
-        m_MethodName: UpgradeLvl1
+        m_MethodName: BuyLvl1
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}

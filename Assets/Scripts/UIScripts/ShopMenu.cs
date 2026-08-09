@@ -47,8 +47,8 @@ public class ShopMenu : MonoBehaviour
         bgPanel.SetActive(false);
         uiImage.sprite = sprites[0];
         moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
-        button2TMP.SetText("$" + shellCost2.ToString());
-        button3TMP.SetText("$" + shellCost3.ToString());
+        button2TMP.SetText("$" + upgradeCost2.ToString());
+        button3TMP.SetText("$" + upgradeCost3.ToString());
         RefreshUB();
     }
 
@@ -63,7 +63,7 @@ public class ShopMenu : MonoBehaviour
             if (!isShopOpen) { return; }
             Resume();
         }
-        if(ScoreManager.Instance.money != null)
+        if(ScoreManager.Instance != null)
         {
             moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
         }

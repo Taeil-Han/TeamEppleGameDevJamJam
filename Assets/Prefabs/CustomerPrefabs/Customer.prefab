@@ -186,6 +186,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.5
   spriteRenderer: {fileID: 2752533980824167134}
+  turtleSpr: {fileID: 0}
+  otterSpr: {fileID: 0}
+  SealSpr: {fileID: 0}
   opinion: {fileID: 5300732477122722845}
   speechDuration: 0.5
   order: Clam

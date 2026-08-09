@@ -7,11 +7,12 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] Image ammoIcon;
     [SerializeField] Sprite[] ammoSprites;
     [SerializeField] TMP_Text ammoCountTMP;
-    //[SerializeField] TMP_Text waveTMP;
+    [SerializeField] TMP_Text waveTMP;
     [SerializeField] GameObject shopButton;
+    [SerializeField] TMP_Text scoreTMP;
+    [SerializeField] TMP_Text moneyTMP;
     private PlayerManager player;
     private GameManager gameManager;
-    private ShopMenu shopMenu;
     private int[] numOfShells;
 
     public void Init(PlayerManager playerRef, GameManager gameRef)
@@ -22,11 +23,15 @@ public class PlayerUI : MonoBehaviour
 
     private void Start()
     {
-        shopMenu = GetComponentInChildren<ShopMenu>();
+        
     }
     void Update()
     {
         if (player == null || gameManager == null) { return; }
+        if (Input.GetKeyDown(KeyCode.R)) //TODO MAKE SURE IT DOES NOT CONFLICT WITH PAUSE SCREEN
+        {
+            OpenShop();
+        }
         int index = player.GetAmmoIndex();
         if (index >= 0 && index < ammoSprites.Length)
         {
@@ -37,12 +42,9 @@ public class PlayerUI : MonoBehaviour
         {
             ChangeAmmoCount(index);
         }
-        //waveTMP.SetText("Stage Lvl: " + gameManager.wavelvl.ToString());
-
-        if (Input.GetKeyDown(KeyCode.R)) //TODO MAKE SURE IT DOES NOT CONFLICT WITH PAUSE SCREEN
-        {
-            OpenShop();
-        }
+        scoreTMP.SetText(ScoreManager.Instance.score.ToString());
+        moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
+        waveTMP.SetText("Stage Lvl: " + gameManager.wavelvl.ToString());
     }
 
     public void ChangeAmmoCount(int index)
