@@ -28,9 +28,17 @@ public class PlayerUI : MonoBehaviour
     void Update()
     {
         if (player == null || gameManager == null) { return; }
-        if (Input.GetKeyDown(KeyCode.R)) //TODO MAKE SURE IT DOES NOT CONFLICT WITH PAUSE SCREEN
+        if (Input.GetKeyDown(KeyCode.E))
         {
-            OpenShop();
+            if (ShopMenu.isShopOpen)
+            {
+                ShopMenu.Instance.Resume();
+                shopButton.SetActive(true);
+            }
+            else
+            {
+                OpenShop();
+            }
         }
         int index = player.GetAmmoIndex();
         if (index >= 0 && index < ammoSprites.Length)
@@ -53,7 +61,8 @@ public class PlayerUI : MonoBehaviour
     }
 
     public void OpenShop() 
-    { 
+    {
+        if (ShopMenu.isShopOpen) { return; }
         ShopMenu.isShopOpen = true;
         shopButton.SetActive(false);
     }

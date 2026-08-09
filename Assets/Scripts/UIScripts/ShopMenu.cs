@@ -27,9 +27,9 @@ public class ShopMenu : MonoBehaviour
     [SerializeField] TMP_Text up1T;
     [SerializeField] TMP_Text up2T;
     [SerializeField] TMP_Text up3T;
-    public Color available = Color.white;
-    public Color purchased = Color.gray;
-    public Color lockedColor = new Color(0.35f, 0.35f, 0.35f, 1f);
+    private Color available = new Color(255f / 255f, 233f / 255f, 144f / 255f);
+    private Color purchased = Color.gray;
+    private Color lockedColor = new Color(0.35f, 0.35f, 0.35f, 1f);
     public int lvl = 1;
 
     //Text
@@ -58,12 +58,7 @@ public class ShopMenu : MonoBehaviour
         {
             Pause();
         }
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            if (!isShopOpen) { return; }
-            Resume();
-        }
-        if(ScoreManager.Instance != null)
+        if (ScoreManager.Instance != null)
         {
             moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
         }
@@ -166,13 +161,13 @@ public class ShopMenu : MonoBehaviour
         if (avail)
         {
             image.color = available;
-            text.color = Color.black;
+            text.color = new Color(134f / 255f, 67f / 255f, 23f / 255f);
             return;
         }
         if (bought)
         {
             image.color = purchased;
-            text.color = Color.white;
+            text.color = Color.gray;
             return;
         }
         image.color = lockedColor;
