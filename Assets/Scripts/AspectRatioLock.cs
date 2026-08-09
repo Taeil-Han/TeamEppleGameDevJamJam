@@ -10,7 +10,9 @@ public class AspectRatioLock : MonoBehaviour
     void Start()
     {
         cam = GetComponent<Camera>();
+        Debug.Log("AspectRatioLock Start() running. Screen: " + Screen.width + "x" + Screen.height);
         ApplyAspectRatio();
+        Debug.Log("Camera rect set to: " + cam.rect);
     }
 
     void ApplyAspectRatio()
