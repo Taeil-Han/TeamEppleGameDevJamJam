@@ -7,7 +7,7 @@ public class ShopMenu : MonoBehaviour
 {
     public GameObject bgPanel;
     [SerializeField] Sprite[] sprites = new Sprite[3];
-    [SerializeField] float[] shellCosts = { 1.00f, 2.00f, 3.00f };
+    [SerializeField] float[] shellCosts = { 0.00f, 1.00f, 4.00f };
     [SerializeField] Image uiImage;
 
     public bool isShopOpen = false;
@@ -16,10 +16,18 @@ public class ShopMenu : MonoBehaviour
     public Color lockedColor = new Color(0.35f, 0.35f, 0.35f, 1f);
     private int lvl = 0;
 
+    //Text
+    [SerializeField] TMP_Text moneyTMP;
+    [SerializeField] TMP_Text button2TMP;
+    [SerializeField] TMP_Text button3TMP;
+
     void Start()
     {
         bgPanel.SetActive(false);
         uiImage.sprite = sprites[0];
+        moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
+        button2TMP.SetText("$" + shellCosts[1].ToString());
+        button3TMP.SetText("$" + shellCosts[2].ToString());
     }
 
     void Update()
@@ -33,6 +41,7 @@ public class ShopMenu : MonoBehaviour
             if (!isShopOpen) { return; }
             Resume();
         }
+        moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
         ChangeBG();
     }
 
