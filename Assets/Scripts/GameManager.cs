@@ -62,7 +62,7 @@ public class GameManager : MonoBehaviour
             DialogueManager.Instance.StartDialogue(new string[]
             {
                 "Welcome to Sally\'s Seashell Shack on the Seashore. We are so stoked to have you slingin\' shells. But before we throw you to the fray, there are a couple things you should know.",
-                "If you wanna get paid, you gotta hit quota. That number in the top left? That’s your money tracker. Use it to buy new shells and abilities in the shop to unlock customers, but don\'t spend it all in one place!" ,
+                "If you wanna get paid, you gotta hit quota. That number in the top left? That\'s your money tracker. Use it to buy new shells and abilities in the shop to unlock customers, but don\'t spend it all in one place!" ,
                 "You\'ve gotta raise $11,345 before we let you go; it\'s all in the contract. Why is it that amount? I don\'t have a darn clue?! Have to read it upside down or something to understand that balderdash.",
                 "You\'ll see our trusty supplier in the top right. To rack up money fast, make sure to upgrade your wares by opening the store with \"E\". If you find yourself running low, click these side buttons to stock up.",
                 "Also, these sea creatures, although cute, are so prickly and clammy. Make sure to give them the right shell and never let them get close to your shop! Our trusty supplier will tell you the intel you need.",
