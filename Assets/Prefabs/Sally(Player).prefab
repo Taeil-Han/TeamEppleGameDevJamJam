@@ -31,7 +31,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -80,7 +80,7 @@ SpriteRenderer:
   m_SortingLayerID: -979989969
   m_SortingLayer: 6
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 6097149389191852870, guid: 138832fd266adff47bf9070f7b208e1e, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -103,10 +103,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 044a5624c0ae73e40bf06ffab7d6fa4e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  playerSprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   lvl1proj: {fileID: 2715939753769870036, guid: 305d882a8b021b546ac7fad9a9c2e04d, type: 3}
   lvl2proj: {fileID: 8506943839726325857, guid: d992f932502163143adc9567b8b316a3, type: 3}
   lvl3proj: {fileID: 5835718694065596627, guid: e1e3dd13a4489794fb863057510d2a02, type: 3}
+  spriteRenderer: {fileID: 2206372560267516741}
+  normalSprite: {fileID: 6097149389191852870, guid: 138832fd266adff47bf9070f7b208e1e, type: 3}
+  shootPoseSprite: {fileID: 7259260702660452486, guid: c7591923bf9e04143bd4ad6f20a0dc24, type: 3}
   speed: 7
   minX: -5.6
   maxX: 5.6
@@ -167,7 +169,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
+    oldSize: {x: 5.49, y: 6.73}
     newSize: {x: 1, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

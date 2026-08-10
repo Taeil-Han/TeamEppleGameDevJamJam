@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -5,11 +6,17 @@ using UnityEngine;
 public class PlayerManager : MonoBehaviour
 {
     public static PlayerManager Instance;
-    [SerializeField] Sprite playerSprite;
     [SerializeField] GameObject lvl1proj;
     [SerializeField] GameObject lvl2proj;
     [SerializeField] GameObject lvl3proj;
 
+    //Sprite
+    [SerializeField] SpriteRenderer spriteRenderer;
+    [SerializeField] Sprite normalSprite;
+    [SerializeField] Sprite shootPoseSprite;
+    private Coroutine shootPoseCoroutine;
+
+    //Movement & Limits
     [SerializeField] float speed = 5f;
     [SerializeField] float minX = -8f;
     [SerializeField] float maxX = 8f;
@@ -96,6 +103,7 @@ public class PlayerManager : MonoBehaviour
             if (myY + aimOffsetY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
                 sfxSource.PlayOneShot(throwSFX);
+                TriggerShootPose();
                 Shoot(pos, currPos, currentShellIndex);
             }
         }
@@ -124,6 +132,7 @@ public class PlayerManager : MonoBehaviour
             else if (isCharging)
             {
                 sfxSource.PlayOneShot(throwSFX);
+                TriggerShootPose();
                 float chargeDuration = Time.time - chargeStartTime;
                 float chargePercent = Mathf.Clamp01(chargeDuration / maxChargeTime);
                 ChargeShot(pos, currPos, currentShellIndex, chargePercent);
@@ -332,4 +341,23 @@ public class PlayerManager : MonoBehaviour
 
     }
     #endregion
+
+    
+
+    void TriggerShootPose()
+    {
+        if (shootPoseCoroutine != null)
+        {
+            StopCoroutine(shootPoseCoroutine);
+        }
+        shootPoseCoroutine = StartCoroutine(ShootPoseFlash());
+    }
+
+    IEnumerator ShootPoseFlash()
+    {
+        spriteRenderer.sprite = shootPoseSprite;
+        yield return new WaitForSeconds(0.5f);
+        spriteRenderer.sprite = normalSprite;
+        shootPoseCoroutine = null;
+    }
 }
