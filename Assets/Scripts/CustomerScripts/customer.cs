@@ -68,7 +68,7 @@ public class Customer : MonoBehaviour
                     ScoreManager.Instance.SubtractMoney(25.00f);
                 }
             }
-            Destroy(gameObject);
+            StartCoroutine(Robbed());
         } else if (collision.gameObject.CompareTag("Clam") || collision.gameObject.CompareTag("Cone") || collision.gameObject.CompareTag("Sundial")) {
             shootable = false;
             sfxSource.PlayOneShot(sfxClip);
@@ -161,6 +161,18 @@ public class Customer : MonoBehaviour
         yield return new WaitForSeconds(speechDuration / 2);
         speed = -1f;
         yield return new WaitForSeconds(speechDuration / 2);
+        Destroy(gameObject);
+    }
+
+    IEnumerator Robbed()
+    {
+        StoreQuake.Instance.Shake();
+        opinion.text = "Clammed";
+        opinion.gameObject.SetActive(true);
+        speed = 0;
+        yield return new WaitForSeconds(speechDuration / 2);
+        speed = -10f;
+        yield return new WaitForSeconds(speechDuration * 2);
         Destroy(gameObject);
     }
 
