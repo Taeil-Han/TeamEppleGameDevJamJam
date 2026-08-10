@@ -23,18 +23,18 @@ public class AudioManager : MonoBehaviour
     public void PlayPurchaseSound()
     {
 
-        sfx.Source.PlayOneShot(purchase);
+        sfxSource.PlayOneShot(purchase);
 
     }
 
     public void UICancelClick()
     {
-        sfx.Source.PlayOneShot(UI_Cancel);
+        sfxSource.PlayOneShot(UI_Cancel);
     }
 
     public void UiMovement()
     {
-        sfx.Source.PlayOneShot(UI_Move);
+        sfxSource.PlayOneShot(UI_Move);
     }
 
 
