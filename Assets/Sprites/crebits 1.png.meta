@@ -1,0 +1,4550 @@
+fileFormatVersion: 2
+guid: 0a0b0c3fb932b7c4b880af5f3a521dfd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7712357885684334956
+    second: crebits 1_0
+  - first:
+      213: -6988638420077156825
+    second: crebits 1_1
+  - first:
+      213: -6208811399641963438
+    second: crebits 1_2
+  - first:
+      213: -1944501647831430647
+    second: crebits 1_3
+  - first:
+      213: -3858451219901964966
+    second: crebits 1_4
+  - first:
+      213: 3166694210718840382
+    second: crebits 1_5
+  - first:
+      213: 779833240174304910
+    second: crebits 1_6
+  - first:
+      213: 8859558978692588291
+    second: crebits 1_7
+  - first:
+      213: -8478270840873973384
+    second: crebits 1_8
+  - first:
+      213: -6082522431646213499
+    second: crebits 1_9
+  - first:
+      213: -8505259482574050808
+    second: crebits 1_10
+  - first:
+      213: -2303618465589014679
+    second: crebits 1_11
+  - first:
+      213: -7952021334479489342
+    second: crebits 1_12
+  - first:
+      213: 8792149663599389184
+    second: crebits 1_13
+  - first:
+      213: 5931778314822063515
+    second: crebits 1_14
+  - first:
+      213: 5950077143245268038
+    second: crebits 1_15
+  - first:
+      213: 9058556881196103057
+    second: crebits 1_16
+  - first:
+      213: -4409095352487922124
+    second: crebits 1_17
+  - first:
+      213: -3563210771712578480
+    second: crebits 1_18
+  - first:
+      213: -8210565842923102878
+    second: crebits 1_19
+  - first:
+      213: 4545280216614642560
+    second: crebits 1_20
+  - first:
+      213: 36801929599706248
+    second: crebits 1_21
+  - first:
+      213: 7157339691995324468
+    second: crebits 1_22
+  - first:
+      213: 4710963728404941111
+    second: crebits 1_23
+  - first:
+      213: 6921568437979574064
+    second: crebits 1_24
+  - first:
+      213: -6715646797556671372
+    second: crebits 1_25
+  - first:
+      213: 8345327000420129655
+    second: crebits 1_26
+  - first:
+      213: 5849783412390893321
+    second: crebits 1_27
+  - first:
+      213: -9095552921739921228
+    second: crebits 1_28
+  - first:
+      213: -8237809798326913345
+    second: crebits 1_29
+  - first:
+      213: -2052373944249872403
+    second: crebits 1_30
+  - first:
+      213: -3700999531015987775
+    second: crebits 1_31
+  - first:
+      213: 201895146736414505
+    second: crebits 1_32
+  - first:
+      213: 3400031117191809282
+    second: crebits 1_33
+  - first:
+      213: 4726188668499616679
+    second: crebits 1_34
+  - first:
+      213: 5419992711085402930
+    second: crebits 1_35
+  - first:
+      213: 369424901045734223
+    second: crebits 1_36
+  - first:
+      213: -3165572971149854901
+    second: crebits 1_37
+  - first:
+      213: -6555797030582536335
+    second: crebits 1_38
+  - first:
+      213: -4978695685659369847
+    second: crebits 1_39
+  - first:
+      213: 342951130986799373
+    second: crebits 1_40
+  - first:
+      213: -6325788229455936311
+    second: crebits 1_41
+  - first:
+      213: -29291229776172664
+    second: crebits 1_42
+  - first:
+      213: -6642853814167713729
+    second: crebits 1_43
+  - first:
+      213: -8906267143799871925
+    second: crebits 1_44
+  - first:
+      213: 6304127791639422953
+    second: crebits 1_45
+  - first:
+      213: 65105305621704661
+    second: crebits 1_46
+  - first:
+      213: 6135249908566621478
+    second: crebits 1_47
+  - first:
+      213: -7592214889637483400
+    second: crebits 1_48
+  - first:
+      213: 6774502896541783551
+    second: crebits 1_49
+  - first:
+      213: -1789108451466659805
+    second: crebits 1_50
+  - first:
+      213: -6412526177038828778
+    second: crebits 1_51
+  - first:
+      213: 267684847441618246
+    second: crebits 1_52
+  - first:
+      213: -3731536827508754858
+    second: crebits 1_53
+  - first:
+      213: 1598423640901273972
+    second: crebits 1_54
+  - first:
+      213: -3689900538263496417
+    second: crebits 1_55
+  - first:
+      213: 8359878526519908402
+    second: crebits 1_56
+  - first:
+      213: -98998787508764644
+    second: crebits 1_57
+  - first:
+      213: -1462141107931350029
+    second: crebits 1_58
+  - first:
+      213: 6671673001155601482
+    second: crebits 1_59
+  - first:
+      213: 7359944739154507719
+    second: crebits 1_60
+  - first:
+      213: 4344277576129001588
+    second: crebits 1_61
+  - first:
+      213: 3617184775733756888
+    second: crebits 1_62
+  - first:
+      213: -837173012519685760
+    second: crebits 1_63
+  - first:
+      213: 1165064639418207760
+    second: crebits 1_64
+  - first:
+      213: 7110479572460648187
+    second: crebits 1_65
+  - first:
+      213: -767595078239672768
+    second: crebits 1_66
+  - first:
+      213: 4851538916450329301
+    second: crebits 1_67
+  - first:
+      213: 3652919617483269450
+    second: crebits 1_68
+  - first:
+      213: 6404569008467985156
+    second: crebits 1_69
+  - first:
+      213: 70361628341505313
+    second: crebits 1_70
+  - first:
+      213: -5676631294610656947
+    second: crebits 1_71
+  - first:
+      213: 5310723850844447590
+    second: crebits 1_72
+  - first:
+      213: 4646821931950144038
+    second: crebits 1_73
+  - first:
+      213: 8837461145669190512
+    second: crebits 1_74
+  - first:
+      213: -6874171359588106371
+    second: crebits 1_75
+  - first:
+      213: 765148526314295753
+    second: crebits 1_76
+  - first:
+      213: 265479783476085023
+    second: crebits 1_77
+  - first:
+      213: 1092800548641143020
+    second: crebits 1_78
+  - first:
+      213: -4306027512318331503
+    second: crebits 1_79
+  - first:
+      213: 7619552589427779836
+    second: crebits 1_80
+  - first:
+      213: 8624304386473455193
+    second: crebits 1_81
+  - first:
+      213: -8423469952875140020
+    second: crebits 1_82
+  - first:
+      213: -1425690583351891888
+    second: crebits 1_83
+  - first:
+      213: -4002921573993090494
+    second: crebits 1_84
+  - first:
+      213: 7231857488293632543
+    second: crebits 1_85
+  - first:
+      213: 7995579674240108206
+    second: crebits 1_86
+  - first:
+      213: -4773269379665525386
+    second: crebits 1_87
+  - first:
+      213: -5822021574409004388
+    second: crebits 1_88
+  - first:
+      213: 3884364793004007158
+    second: crebits 1_89
+  - first:
+      213: -5085753579266381613
+    second: crebits 1_90
+  - first:
+      213: 321266781650412106
+    second: crebits 1_91
+  - first:
+      213: -1511863778915268998
+    second: crebits 1_92
+  - first:
+      213: 3241578990411553660
+    second: crebits 1_93
+  - first:
+      213: 6442530220893409047
+    second: crebits 1_94
+  - first:
+      213: -8217475083466260686
+    second: crebits 1_95
+  - first:
+      213: -6111546653576997912
+    second: crebits 1_96
+  - first:
+      213: 4268632370186770214
+    second: crebits 1_97
+  - first:
+      213: 4083802259154524206
+    second: crebits 1_98
+  - first:
+      213: 5974806092220275106
+    second: crebits 1_99
+  - first:
+      213: 6206439437770418662
+    second: crebits 1_100
+  - first:
+      213: -7663536071853398221
+    second: crebits 1_101
+  - first:
+      213: 1170602276890168378
+    second: crebits 1_102
+  - first:
+      213: 3145834121586984304
+    second: crebits 1_103
+  - first:
+      213: -6413897579140778255
+    second: crebits 1_104
+  - first:
+      213: 4724987145587356937
+    second: crebits 1_105
+  - first:
+      213: -3529712913473800245
+    second: crebits 1_106
+  - first:
+      213: 8579326565234328259
+    second: crebits 1_107
+  - first:
+      213: 4264922487538836873
+    second: crebits 1_108
+  - first:
+      213: -1402880811342484716
+    second: crebits 1_109
+  - first:
+      213: -4624091283444359966
+    second: crebits 1_110
+  - first:
+      213: -8571084748163532298
+    second: crebits 1_111
+  - first:
+      213: -2666091724468354142
+    second: crebits 1_112
+  - first:
+      213: -8095290939252311705
+    second: crebits 1_113
+  - first:
+      213: 1713266402023380098
+    second: crebits 1_114
+  - first:
+      213: 2403728080292960336
+    second: crebits 1_115
+  - first:
+      213: 8054692798469301221
+    second: crebits 1_116
+  - first:
+      213: 7360760096895272805
+    second: crebits 1_117
+  - first:
+      213: 6427271912893572130
+    second: crebits 1_118
+  - first:
+      213: 249539049326094247
+    second: crebits 1_119
+  - first:
+      213: -7571538403205349823
+    second: crebits 1_120
+  - first:
+      213: 5068834311879296739
+    second: crebits 1_121
+  - first:
+      213: -4331857127750416836
+    second: crebits 1_122
+  - first:
+      213: -8093547462027141577
+    second: crebits 1_123
+  - first:
+      213: -5988506731888863541
+    second: crebits 1_124
+  - first:
+      213: -8895145053724192434
+    second: crebits 1_125
+  - first:
+      213: -2933017824429978350
+    second: crebits 1_126
+  - first:
+      213: 5596981259502996556
+    second: crebits 1_127
+  - first:
+      213: -4655730530702710745
+    second: crebits 1_128
+  - first:
+      213: -5789326699524931134
+    second: crebits 1_129
+  - first:
+      213: 2072583221748400756
+    second: crebits 1_130
+  - first:
+      213: 4352504902719439853
+    second: crebits 1_131
+  - first:
+      213: -5759416854542718012
+    second: crebits 1_132
+  - first:
+      213: -630036124200397216
+    second: crebits 1_133
+  - first:
+      213: 2715165703812335467
+    second: crebits 1_134
+  - first:
+      213: -235240525627577872
+    second: crebits 1_135
+  - first:
+      213: -5146155958540598470
+    second: crebits 1_136
+  - first:
+      213: 5922126016252971600
+    second: crebits 1_137
+  - first:
+      213: 3315942698569778099
+    second: crebits 1_138
+  - first:
+      213: -6299233889530422911
+    second: crebits 1_139
+  - first:
+      213: -1207527149716337753
+    second: crebits 1_140
+  - first:
+      213: -6056612382408146348
+    second: crebits 1_141
+  - first:
+      213: 5428783125303133042
+    second: crebits 1_142
+  - first:
+      213: 2632278761560888894
+    second: crebits 1_143
+  - first:
+      213: 8964987341088916074
+    second: crebits 1_144
+  - first:
+      213: -393238281671765840
+    second: crebits 1_145
+  - first:
+      213: 2282144881610459790
+    second: crebits 1_146
+  - first:
+      213: 1040709595814055725
+    second: crebits 1_147
+  - first:
+      213: -6191879971269615725
+    second: crebits 1_148
+  - first:
+      213: 3402124768017117207
+    second: crebits 1_149
+  - first:
+      213: 7622931385683810809
+    second: crebits 1_150
+  - first:
+      213: -3920573473871250096
+    second: crebits 1_151
+  - first:
+      213: 5370417612676938521
+    second: crebits 1_152
+  - first:
+      213: -3623350152302740258
+    second: crebits 1_153
+  - first:
+      213: 8553023621672463013
+    second: crebits 1_154
+  - first:
+      213: -7947722739181295228
+    second: crebits 1_155
+  - first:
+      213: 6510294409795896535
+    second: crebits 1_156
+  - first:
+      213: 6713563057728810036
+    second: crebits 1_157
+  - first:
+      213: 1570190613158921897
+    second: crebits 1_158
+  - first:
+      213: -5393231147544085830
+    second: crebits 1_159
+  - first:
+      213: -2757513862879030067
+    second: crebits 1_160
+  - first:
+      213: -2769711451166353723
+    second: crebits 1_161
+  - first:
+      213: -3044806086007118691
+    second: crebits 1_162
+  - first:
+      213: -6460893892354497544
+    second: crebits 1_163
+  - first:
+      213: 2237087153421394817
+    second: crebits 1_164
+  - first:
+      213: -9021306134563043497
+    second: crebits 1_165
+  - first:
+      213: 7055692633822096729
+    second: crebits 1_166
+  - first:
+      213: 8994861554574158243
+    second: crebits 1_167
+  - first:
+      213: -1230679333868890148
+    second: crebits 1_168
+  - first:
+      213: -7004455933524577906
+    second: crebits 1_169
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: crebits 1_0
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 115
+        width: 1597
+        height: 2067
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49e3a136d5338f490800000000000000
+      internalID: -7712357885684334956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_1
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 2168
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72667a3626e530f90800000000000000
+      internalID: -6988638420077156825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_2
+      rect:
+        serializedVersion: 2
+        x: 384
+        y: 2157
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 254e1fe7deed5d9a0800000000000000
+      internalID: -6208811399641963438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_3
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 2160
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90a88dfbd0eb305e0800000000000000
+      internalID: -1944501647831430647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_4
+      rect:
+        serializedVersion: 2
+        x: 864
+        y: 2160
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d1296fe07047ac0800000000000000
+      internalID: -3858451219901964966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_5
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 2157
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e36be265b9b52fb20800000000000000
+      internalID: 3166694210718840382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_6
+      rect:
+        serializedVersion: 2
+        x: 1766
+        y: 1323
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e91a0433682da00800000000000000
+      internalID: 779833240174304910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_7
+      rect:
+        serializedVersion: 2
+        x: 1773
+        y: 1308
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 303289f73f973fa70800000000000000
+      internalID: 8859558978692588291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_8
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1293
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879872c0791275a80800000000000000
+      internalID: -8478270840873973384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_9
+      rect:
+        serializedVersion: 2
+        x: 1998
+        y: 1303
+        width: 16
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58ad163331a869ba0800000000000000
+      internalID: -6082522431646213499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_10
+      rect:
+        serializedVersion: 2
+        x: 2022
+        y: 1291
+        width: 6
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80aa6aa309f37f980800000000000000
+      internalID: -8505259482574050808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_11
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1284
+        width: 19
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96f498ce537e700e0800000000000000
+      internalID: -2303618465589014679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_12
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 1283
+        width: 17
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c6b5085abeb4a190800000000000000
+      internalID: -7952021334479489342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_13
+      rect:
+        serializedVersion: 2
+        x: 1967
+        y: 1267
+        width: 11
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00a69e6498df30a70800000000000000
+      internalID: 8792149663599389184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_14
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1263
+        width: 15
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b95955d03f8e15250800000000000000
+      internalID: 5931778314822063515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_15
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1262
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6442e4d03abe29250800000000000000
+      internalID: 5950077143245268038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_16
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 1271
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1953d593d7576bd70800000000000000
+      internalID: 9058556881196103057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_17
+      rect:
+        serializedVersion: 2
+        x: 2021
+        y: 1254
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 436b126232fbfc2c0800000000000000
+      internalID: -4409095352487922124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_18
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1256
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05ce93c8eaeec8ec0800000000000000
+      internalID: -3563210771712578480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_19
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1253
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26ddc970ed53e0e80800000000000000
+      internalID: -8210565842923102878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_20
+      rect:
+        serializedVersion: 2
+        x: 2029
+        y: 1240
+        width: 11
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0832deb6644141f30800000000000000
+      internalID: 4545280216614642560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_21
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1219
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 884e6d4f82fb28000800000000000000
+      internalID: 36801929599706248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_22
+      rect:
+        serializedVersion: 2
+        x: 1970
+        y: 1213
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4306f26578af35360800000000000000
+      internalID: 7157339691995324468
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_23
+      rect:
+        serializedVersion: 2
+        x: 1973
+        y: 1241
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 739835d1d84b06140800000000000000
+      internalID: 4710963728404941111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_24
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1220
+        width: 30
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03fe35282d95e0060800000000000000
+      internalID: 6921568437979574064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_25
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 1209
+        width: 20
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47c15a291da3dc2a0800000000000000
+      internalID: -6715646797556671372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_26
+      rect:
+        serializedVersion: 2
+        x: 2034
+        y: 1204
+        width: 17
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77b948201be80d370800000000000000
+      internalID: 8345327000420129655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_27
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 1190
+        width: 18
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9071884250b9e2150800000000000000
+      internalID: 5849783412390893321
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_28
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1213
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8fce7deca16c180800000000000000
+      internalID: -9095552921739921228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_29
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1189
+        width: 19
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb6fd7b52ab6dad80800000000000000
+      internalID: -8237809798326913345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_30
+      rect:
+        serializedVersion: 2
+        x: 2033
+        y: 1206
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: def08ba85c08483e0800000000000000
+      internalID: -2052373944249872403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_31
+      rect:
+        serializedVersion: 2
+        x: 1974
+        y: 1173
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cd97e7098863acc0800000000000000
+      internalID: -3700999531015987775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_32
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1178
+        width: 28
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92f6917f0964dc200800000000000000
+      internalID: 201895146736414505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_33
+      rect:
+        serializedVersion: 2
+        x: 2044
+        y: 1185
+        width: 6
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2090e7579465f2f20800000000000000
+      internalID: 3400031117191809282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_34
+      rect:
+        serializedVersion: 2
+        x: 1961
+        y: 1175
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a36567bd8bc69140800000000000000
+      internalID: 4726188668499616679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_35
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1135
+        width: 16
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23ba37587aea73b40800000000000000
+      internalID: 5419992711085402930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_36
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1168
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4bc30e7df5702500800000000000000
+      internalID: 369424901045734223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_37
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1162
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b47f8089720a114d0800000000000000
+      internalID: -3165572971149854901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_38
+      rect:
+        serializedVersion: 2
+        x: 1969
+        y: 1147
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1773194b5512505a0800000000000000
+      internalID: -6555797030582536335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_39
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 1148
+        width: 22
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98ed083f6ae18eab0800000000000000
+      internalID: -4978695685659369847
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_40
+      rect:
+        serializedVersion: 2
+        x: 2009
+        y: 1144
+        width: 26
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0169c19c3862c400800000000000000
+      internalID: 342951130986799373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_41
+      rect:
+        serializedVersion: 2
+        x: 2056
+        y: 1157
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c48eeaee194638a0800000000000000
+      internalID: -6325788229455936311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_42
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1143
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 889282e18cfe79ff0800000000000000
+      internalID: -29291229776172664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_43
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 1140
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f384fafb6a7dfc3a0800000000000000
+      internalID: -6642853814167713729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_44
+      rect:
+        serializedVersion: 2
+        x: 2074
+        y: 1150
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46631b5835966480800000000000000
+      internalID: -8906267143799871925
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_45
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1111
+        width: 27
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e7e55763d2cc7750800000000000000
+      internalID: 6304127791639422953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_46
+      rect:
+        serializedVersion: 2
+        x: 2011
+        y: 1129
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5df23963eec47e000800000000000000
+      internalID: 65105305621704661
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_47
+      rect:
+        serializedVersion: 2
+        x: 2026
+        y: 1115
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62d7c503949c42550800000000000000
+      internalID: 6135249908566621478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_48
+      rect:
+        serializedVersion: 2
+        x: 2046
+        y: 1128
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87ce9bc78c803a690800000000000000
+      internalID: -7592214889637483400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_49
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1128
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff55a36dd7ed30e50800000000000000
+      internalID: 6774502896541783551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_50
+      rect:
+        serializedVersion: 2
+        x: 2067
+        y: 1120
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3283eada75fcb27e0800000000000000
+      internalID: -1789108451466659805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_51
+      rect:
+        serializedVersion: 2
+        x: 2102
+        y: 1123
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 61bf4b0ca612207a0800000000000000
+      internalID: -6412526177038828778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_52
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1109
+        width: 14
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 645238353f107b300800000000000000
+      internalID: 267684847441618246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_53
+      rect:
+        serializedVersion: 2
+        x: 2017
+        y: 1107
+        width: 11
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6567d02a60be63cc0800000000000000
+      internalID: -3731536827508754858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_54
+      rect:
+        serializedVersion: 2
+        x: 2018
+        y: 1119
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479c18425ddbe2610800000000000000
+      internalID: 1598423640901273972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_55
+      rect:
+        serializedVersion: 2
+        x: 2051
+        y: 1110
+        width: 16
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f191848a207daccc0800000000000000
+      internalID: -3689900538263496417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_56
+      rect:
+        serializedVersion: 2
+        x: 2088
+        y: 1107
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23892a23a31440470800000000000000
+      internalID: 8359878526519908402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_57
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 1113
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c108855902940aef0800000000000000
+      internalID: -98998787508764644
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_58
+      rect:
+        serializedVersion: 2
+        x: 2113
+        y: 1056
+        width: 44
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fb714ab86e65bbe0800000000000000
+      internalID: -1462141107931350029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_59
+      rect:
+        serializedVersion: 2
+        x: 2141
+        y: 1109
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a44a17b1f3b869c50800000000000000
+      internalID: 6671673001155601482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_60
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 1103
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c73fcfdeb6c32660800000000000000
+      internalID: 7359944739154507719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_61
+      rect:
+        serializedVersion: 2
+        x: 1994
+        y: 1102
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4783dd24079f94c30800000000000000
+      internalID: 4344277576129001588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_62
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1099
+        width: 10
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d3cf8c8362d23230800000000000000
+      internalID: 3617184775733756888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_63
+      rect:
+        serializedVersion: 2
+        x: 2035
+        y: 1092
+        width: 19
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0817835a493c164f0800000000000000
+      internalID: -837173012519685760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_64
+      rect:
+        serializedVersion: 2
+        x: 2042
+        y: 1103
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01e04e4ed142b2010800000000000000
+      internalID: 1165064639418207760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_65
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1108
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf6303b8f7f7da260800000000000000
+      internalID: 7110479572460648187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_66
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1079
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046af2ed754f855f0800000000000000
+      internalID: -767595078239672768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_67
+      rect:
+        serializedVersion: 2
+        x: 2001
+        y: 1072
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d26101a0f0245340800000000000000
+      internalID: 4851538916450329301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_68
+      rect:
+        serializedVersion: 2
+        x: 2059
+        y: 1092
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a456521c907c1b230800000000000000
+      internalID: 3652919617483269450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_69
+      rect:
+        serializedVersion: 2
+        x: 2100
+        y: 1094
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 403c531949991e850800000000000000
+      internalID: 6404569008467985156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_70
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 1079
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12d0d173789f9f000800000000000000
+      internalID: 70361628341505313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_71
+      rect:
+        serializedVersion: 2
+        x: 2025
+        y: 1076
+        width: 11
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d41bdd3e9ed8831b0800000000000000
+      internalID: -5676631294610656947
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_72
+      rect:
+        serializedVersion: 2
+        x: 2041
+        y: 1069
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66327c5743b73b940800000000000000
+      internalID: 5310723850844447590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_73
+      rect:
+        serializedVersion: 2
+        x: 2119
+        y: 1082
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62af16c5de3dc7040800000000000000
+      internalID: 4646821931950144038
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_74
+      rect:
+        serializedVersion: 2
+        x: 1993
+        y: 1072
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 073cdefc618f4aa70800000000000000
+      internalID: 8837461145669190512
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_75
+      rect:
+        serializedVersion: 2
+        x: 1979
+        y: 1041
+        width: 7
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7f3692c1990a90a0800000000000000
+      internalID: -6874171359588106371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_76
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1056
+        width: 16
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1906fd78a5e9a00800000000000000
+      internalID: 765148526314295753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_77
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 1007
+        width: 36
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f11c32dd47c2fa300800000000000000
+      internalID: 265479783476085023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_78
+      rect:
+        serializedVersion: 2
+        x: 2036
+        y: 1056
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce87b102f486a2f00800000000000000
+      internalID: 1092800548641143020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_79
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 994
+        width: 6
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 195f437bacaed34c0800000000000000
+      internalID: -4306027512318331503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_80
+      rect:
+        serializedVersion: 2
+        x: 2007
+        y: 993
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf82040c5b61eb960800000000000000
+      internalID: 7619552589427779836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_81
+      rect:
+        serializedVersion: 2
+        x: 1997
+        y: 944
+        width: 14
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95ee79e552fafa770800000000000000
+      internalID: 8624304386473455193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_82
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 880
+        width: 7
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c63b215b2d91b80800000000000000
+      internalID: -8423469952875140020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_83
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 761
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 058e0b3d7fde63ce0800000000000000
+      internalID: -1425690583351891888
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_84
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 774
+        width: 17
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 242f46e6904c278c0800000000000000
+      internalID: -4002921573993090494
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_85
+      rect:
+        serializedVersion: 2
+        x: 180
+        y: 753
+        width: 11
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1a9dffc118bc5460800000000000000
+      internalID: 7231857488293632543
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_86
+      rect:
+        serializedVersion: 2
+        x: 1877
+        y: 746
+        width: 24
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea64a60f95106fe60800000000000000
+      internalID: 7995579674240108206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_87
+      rect:
+        serializedVersion: 2
+        x: 1884
+        y: 759
+        width: 15
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67589cff9c0f1cdb0800000000000000
+      internalID: -4773269379665525386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_88
+      rect:
+        serializedVersion: 2
+        x: 1878
+        y: 727
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9ad0b67936043fa0800000000000000
+      internalID: -5822021574409004388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_89
+      rect:
+        serializedVersion: 2
+        x: 1881
+        y: 710
+        width: 22
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fe9901f23908e530800000000000000
+      internalID: 3884364793004007158
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_90
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 692
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d8e7aca016cb69b0800000000000000
+      internalID: -5085753579266381613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_91
+      rect:
+        serializedVersion: 2
+        x: 1897
+        y: 701
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a42e76e8f6e557400800000000000000
+      internalID: 321266781650412106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_92
+      rect:
+        serializedVersion: 2
+        x: 1875
+        y: 671
+        width: 19
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76c9fc37e7c40be0800000000000000
+      internalID: -1511863778915268998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_93
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 678
+        width: 17
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b99dacae66cfc20800000000000000
+      internalID: 3241578990411553660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_94
+      rect:
+        serializedVersion: 2
+        x: 1895
+        y: 669
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71f02171a17786950800000000000000
+      internalID: 6442530220893409047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_95
+      rect:
+        serializedVersion: 2
+        x: 1874
+        y: 663
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fbe5b13f9a5fd80800000000000000
+      internalID: -8217475083466260686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_96
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 668
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e3d05de2bc6f2ba0800000000000000
+      internalID: -6111546653576997912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_97
+      rect:
+        serializedVersion: 2
+        x: 1883
+        y: 658
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62757b5468a3d3b30800000000000000
+      internalID: 4268632370186770214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_98
+      rect:
+        serializedVersion: 2
+        x: 1890
+        y: 639
+        width: 23
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28d7dd84849ca830800000000000000
+      internalID: 4083802259154524206
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_99
+      rect:
+        serializedVersion: 2
+        x: 1905
+        y: 634
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a911a82c76cae250800000000000000
+      internalID: 5974806092220275106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_100
+      rect:
+        serializedVersion: 2
+        x: 1910
+        y: 637
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e9e74819c3b12650800000000000000
+      internalID: 6206439437770418662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_101
+      rect:
+        serializedVersion: 2
+        x: 2116
+        y: 633
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33729c9bb86a5a590800000000000000
+      internalID: -7663536071853398221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_102
+      rect:
+        serializedVersion: 2
+        x: 2115
+        y: 601
+        width: 7
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3c4d479190de3010800000000000000
+      internalID: 1170602276890168378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_103
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 556
+        width: 27
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 075ce7b577f38ab20800000000000000
+      internalID: 3145834121586984304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_104
+      rect:
+        serializedVersion: 2
+        x: 2129
+        y: 619
+        width: 12
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1f6739152224df6a0800000000000000
+      internalID: -6413897579140778255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_105
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 589
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 905750d56c6829140800000000000000
+      internalID: 4724987145587356937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_106
+      rect:
+        serializedVersion: 2
+        x: 2103
+        y: 582
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc7f8417ec0f30fc0800000000000000
+      internalID: -3529712913473800245
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_107
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 571
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c24ddc4e04ef0770800000000000000
+      internalID: 8579326565234328259
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_108
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 531
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 985e358e76c003b30800000000000000
+      internalID: 4264922487538836873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_109
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 538
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41b28b9b557f78ce0800000000000000
+      internalID: -1402880811342484716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_110
+      rect:
+        serializedVersion: 2
+        x: 2076
+        y: 512
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ec91592a7de3dfb0800000000000000
+      internalID: -4624091283444359966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_111
+      rect:
+        serializedVersion: 2
+        x: 2097
+        y: 532
+        width: 21
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f9b1f545d36d0980800000000000000
+      internalID: -8571084748163532298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_112
+      rect:
+        serializedVersion: 2
+        x: 2118
+        y: 518
+        width: 13
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2a38470c3b3200bd0800000000000000
+      internalID: -2666091724468354142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_113
+      rect:
+        serializedVersion: 2
+        x: 2120
+        y: 501
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7697d6c08cfb7af80800000000000000
+      internalID: -8095290939252311705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_114
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 485
+        width: 35
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 284173227beb6c710800000000000000
+      internalID: 1713266402023380098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_115
+      rect:
+        serializedVersion: 2
+        x: 2077
+        y: 465
+        width: 10
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0585e7a14f1cb5120800000000000000
+      internalID: 2403728080292960336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_116
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 456
+        width: 14
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e3e8a3bc6408cf60800000000000000
+      internalID: 8054692798469301221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_117
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 440
+        width: 6
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56700542f4ca62660800000000000000
+      internalID: 7360760096895272805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_118
+      rect:
+        serializedVersion: 2
+        x: 1770
+        y: 451
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 224edda60c1423950800000000000000
+      internalID: 6427271912893572130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_119
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 437
+        width: 12
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a7aba8717a867300800000000000000
+      internalID: 249539049326094247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_120
+      rect:
+        serializedVersion: 2
+        x: 2114
+        y: 413
+        width: 17
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14e77b120fd7ce690800000000000000
+      internalID: -7571538403205349823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_121
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 403
+        width: 12
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e680e863fd185640800000000000000
+      internalID: 5068834311879296739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_122
+      rect:
+        serializedVersion: 2
+        x: 1955
+        y: 393
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3641bab4e622e3c0800000000000000
+      internalID: -4331857127750416836
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_123
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 399
+        width: 15
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73e9b19f671fdaf80800000000000000
+      internalID: -8093547462027141577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_124
+      rect:
+        serializedVersion: 2
+        x: 2107
+        y: 399
+        width: 8
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc69ab61bdc84eca0800000000000000
+      internalID: -5988506731888863541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_125
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 394
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41523fb3b81e8480800000000000000
+      internalID: -8895145053724192434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_126
+      rect:
+        serializedVersion: 2
+        x: 1932
+        y: 371
+        width: 11
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21d46f614d3db47d0800000000000000
+      internalID: -2933017824429978350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_127
+      rect:
+        serializedVersion: 2
+        x: 1942
+        y: 360
+        width: 24
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4cc13b2dc87cad40800000000000000
+      internalID: 5596981259502996556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_128
+      rect:
+        serializedVersion: 2
+        x: 2079
+        y: 381
+        width: 17
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 728268bdfb5836fb0800000000000000
+      internalID: -4655730530702710745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_129
+      rect:
+        serializedVersion: 2
+        x: 2121
+        y: 386
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c1c12a3a0e28afa0800000000000000
+      internalID: -5789326699524931134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_130
+      rect:
+        serializedVersion: 2
+        x: 1885
+        y: 365
+        width: 23
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4728fbb857b43cc10800000000000000
+      internalID: 2072583221748400756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_131
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 346
+        width: 23
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de30db10624376c30800000000000000
+      internalID: 4352504902719439853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_132
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 369
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cb659fa2e07210b0800000000000000
+      internalID: -5759416854542718012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_133
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 358
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0661f5dab79a147f0800000000000000
+      internalID: -630036124200397216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_134
+      rect:
+        serializedVersion: 2
+        x: 2081
+        y: 354
+        width: 44
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b67ce0272d43ea520800000000000000
+      internalID: 2715165703812335467
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_135
+      rect:
+        serializedVersion: 2
+        x: 1916
+        y: 351
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f921310df14cbcf0800000000000000
+      internalID: -235240525627577872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_136
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 346
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a338d64db6e2598b0800000000000000
+      internalID: -5146155958540598470
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_137
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 346
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05a8bd92c3e9f2250800000000000000
+      internalID: 5922126016252971600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_138
+      rect:
+        serializedVersion: 2
+        x: 2083
+        y: 344
+        width: 8
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b34dc3d058940e20800000000000000
+      internalID: 3315942698569778099
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_139
+      rect:
+        serializedVersion: 2
+        x: 2099
+        y: 331
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 189df69f620a498a0800000000000000
+      internalID: -6299233889530422911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_140
+      rect:
+        serializedVersion: 2
+        x: 1937
+        y: 329
+        width: 25
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ab848084700e3fe0800000000000000
+      internalID: -1207527149716337753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_141
+      rect:
+        serializedVersion: 2
+        x: 1944
+        y: 340
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4528454a02792fba0800000000000000
+      internalID: -6056612382408146348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_142
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 329
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27304525d79e65b40800000000000000
+      internalID: 5428783125303133042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_143
+      rect:
+        serializedVersion: 2
+        x: 2130
+        y: 333
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3654a4569bb78420800000000000000
+      internalID: 2632278761560888894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_144
+      rect:
+        serializedVersion: 2
+        x: 532
+        y: 162
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a628a79fc780a6c70800000000000000
+      internalID: 8964987341088916074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_145
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 162
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b09ed4cddfea8af0800000000000000
+      internalID: -393238281671765840
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_146
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 163
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8a0e52bdaecbaf10800000000000000
+      internalID: 2282144881610459790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_147
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 167
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2f46dc0dd7517e00800000000000000
+      internalID: 1040709595814055725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_148
+      rect:
+        serializedVersion: 2
+        x: 670
+        y: 166
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39f5e9cd8f5021aa0800000000000000
+      internalID: -6191879971269615725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_149
+      rect:
+        serializedVersion: 2
+        x: 682
+        y: 158
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 710f7378376c63f20800000000000000
+      internalID: 3402124768017117207
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_150
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 158
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f91cde05b71ac960800000000000000
+      internalID: 7622931385683810809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_151
+      rect:
+        serializedVersion: 2
+        x: 707
+        y: 162
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05db51692335799c0800000000000000
+      internalID: -3920573473871250096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_152
+      rect:
+        serializedVersion: 2
+        x: 725
+        y: 165
+        width: 6
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91b3c137d5e878a40800000000000000
+      internalID: 5370417612676938521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_153
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 161
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edc332bdb3647bdc0800000000000000
+      internalID: -3623350152302740258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_154
+      rect:
+        serializedVersion: 2
+        x: 817
+        y: 167
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aaef450ba172b670800000000000000
+      internalID: 8553023621672463013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_155
+      rect:
+        serializedVersion: 2
+        x: 853
+        y: 162
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489edcd074404b190800000000000000
+      internalID: -7947722739181295228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_156
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 162
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d4881fc546395a50800000000000000
+      internalID: 6510294409795896535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_157
+      rect:
+        serializedVersion: 2
+        x: 1237
+        y: 167
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43c6c11f70e5b2d50800000000000000
+      internalID: 6713563057728810036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_158
+      rect:
+        serializedVersion: 2
+        x: 1554
+        y: 165
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a68dfe1b007ac510800000000000000
+      internalID: 1570190613158921897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_159
+      rect:
+        serializedVersion: 2
+        x: 582
+        y: 154
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abaff0b88d46725b0800000000000000
+      internalID: -5393231147544085830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_160
+      rect:
+        serializedVersion: 2
+        x: 713
+        y: 155
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc451eb60c75bb9d0800000000000000
+      internalID: -2757513862879030067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_161
+      rect:
+        serializedVersion: 2
+        x: 764
+        y: 154
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6d5e61c120099d0800000000000000
+      internalID: -2769711451166353723
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_162
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 149
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9429913ffcaeb5d0800000000000000
+      internalID: -3044806086007118691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_163
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 151
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f328b67c3b4656a0800000000000000
+      internalID: -6460893892354497544
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_164
+      rect:
+        serializedVersion: 2
+        x: 1027
+        y: 154
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 183a547d9eabb0f10800000000000000
+      internalID: 2237087153421394817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_165
+      rect:
+        serializedVersion: 2
+        x: 570
+        y: 147
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75741571ed1edc280800000000000000
+      internalID: -9021306134563043497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_166
+      rect:
+        serializedVersion: 2
+        x: 672
+        y: 145
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d6e4b511bdae160800000000000000
+      internalID: 7055692633822096729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_167
+      rect:
+        serializedVersion: 2
+        x: 808
+        y: 130
+        width: 7
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a9e5345dea24dc70800000000000000
+      internalID: 8994861554574158243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_168
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 118
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd794509aafbbeee0800000000000000
+      internalID: -1230679333868890148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: crebits 1_169
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 120
+        width: 10
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81f36d807c2bce90800000000000000
+      internalID: -7004455933524577906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      crebits 1_0: -7712357885684334956
+      crebits 1_1: -6988638420077156825
+      crebits 1_10: -8505259482574050808
+      crebits 1_100: 6206439437770418662
+      crebits 1_101: -7663536071853398221
+      crebits 1_102: 1170602276890168378
+      crebits 1_103: 3145834121586984304
+      crebits 1_104: -6413897579140778255
+      crebits 1_105: 4724987145587356937
+      crebits 1_106: -3529712913473800245
+      crebits 1_107: 8579326565234328259
+      crebits 1_108: 4264922487538836873
+      crebits 1_109: -1402880811342484716
+      crebits 1_11: -2303618465589014679
+      crebits 1_110: -4624091283444359966
+      crebits 1_111: -8571084748163532298
+      crebits 1_112: -2666091724468354142
+      crebits 1_113: -8095290939252311705
+      crebits 1_114: 1713266402023380098
+      crebits 1_115: 2403728080292960336
+      crebits 1_116: 8054692798469301221
+      crebits 1_117: 7360760096895272805
+      crebits 1_118: 6427271912893572130
+      crebits 1_119: 249539049326094247
+      crebits 1_12: -7952021334479489342
+      crebits 1_120: -7571538403205349823
+      crebits 1_121: 5068834311879296739
+      crebits 1_122: -4331857127750416836
+      crebits 1_123: -8093547462027141577
+      crebits 1_124: -5988506731888863541
+      crebits 1_125: -8895145053724192434
+      crebits 1_126: -2933017824429978350
+      crebits 1_127: 5596981259502996556
+      crebits 1_128: -4655730530702710745
+      crebits 1_129: -5789326699524931134
+      crebits 1_13: 8792149663599389184
+      crebits 1_130: 2072583221748400756
+      crebits 1_131: 4352504902719439853
+      crebits 1_132: -5759416854542718012
+      crebits 1_133: -630036124200397216
+      crebits 1_134: 2715165703812335467
+      crebits 1_135: -235240525627577872
+      crebits 1_136: -5146155958540598470
+      crebits 1_137: 5922126016252971600
+      crebits 1_138: 3315942698569778099
+      crebits 1_139: -6299233889530422911
+      crebits 1_14: 5931778314822063515
+      crebits 1_140: -1207527149716337753
+      crebits 1_141: -6056612382408146348
+      crebits 1_142: 5428783125303133042
+      crebits 1_143: 2632278761560888894
+      crebits 1_144: 8964987341088916074
+      crebits 1_145: -393238281671765840
+      crebits 1_146: 2282144881610459790
+      crebits 1_147: 1040709595814055725
+      crebits 1_148: -6191879971269615725
+      crebits 1_149: 3402124768017117207
+      crebits 1_15: 5950077143245268038
+      crebits 1_150: 7622931385683810809
+      crebits 1_151: -3920573473871250096
+      crebits 1_152: 5370417612676938521
+      crebits 1_153: -3623350152302740258
+      crebits 1_154: 8553023621672463013
+      crebits 1_155: -7947722739181295228
+      crebits 1_156: 6510294409795896535
+      crebits 1_157: 6713563057728810036
+      crebits 1_158: 1570190613158921897
+      crebits 1_159: -5393231147544085830
+      crebits 1_16: 9058556881196103057
+      crebits 1_160: -2757513862879030067
+      crebits 1_161: -2769711451166353723
+      crebits 1_162: -3044806086007118691
+      crebits 1_163: -6460893892354497544
+      crebits 1_164: 2237087153421394817
+      crebits 1_165: -9021306134563043497
+      crebits 1_166: 7055692633822096729
+      crebits 1_167: 8994861554574158243
+      crebits 1_168: -1230679333868890148
+      crebits 1_169: -7004455933524577906
+      crebits 1_17: -4409095352487922124
+      crebits 1_18: -3563210771712578480
+      crebits 1_19: -8210565842923102878
+      crebits 1_2: -6208811399641963438
+      crebits 1_20: 4545280216614642560
+      crebits 1_21: 36801929599706248
+      crebits 1_22: 7157339691995324468
+      crebits 1_23: 4710963728404941111
+      crebits 1_24: 6921568437979574064
+      crebits 1_25: -6715646797556671372
+      crebits 1_26: 8345327000420129655
+      crebits 1_27: 5849783412390893321
+      crebits 1_28: -9095552921739921228
+      crebits 1_29: -8237809798326913345
+      crebits 1_3: -1944501647831430647
+      crebits 1_30: -2052373944249872403
+      crebits 1_31: -3700999531015987775
+      crebits 1_32: 201895146736414505
+      crebits 1_33: 3400031117191809282
+      crebits 1_34: 4726188668499616679
+      crebits 1_35: 5419992711085402930
+      crebits 1_36: 369424901045734223
+      crebits 1_37: -3165572971149854901
+      crebits 1_38: -6555797030582536335
+      crebits 1_39: -4978695685659369847
+      crebits 1_4: -3858451219901964966
+      crebits 1_40: 342951130986799373
+      crebits 1_41: -6325788229455936311
+      crebits 1_42: -29291229776172664
+      crebits 1_43: -6642853814167713729
+      crebits 1_44: -8906267143799871925
+      crebits 1_45: 6304127791639422953
+      crebits 1_46: 65105305621704661
+      crebits 1_47: 6135249908566621478
+      crebits 1_48: -7592214889637483400
+      crebits 1_49: 6774502896541783551
+      crebits 1_5: 3166694210718840382
+      crebits 1_50: -1789108451466659805
+      crebits 1_51: -6412526177038828778
+      crebits 1_52: 267684847441618246
+      crebits 1_53: -3731536827508754858
+      crebits 1_54: 1598423640901273972
+      crebits 1_55: -3689900538263496417
+      crebits 1_56: 8359878526519908402
+      crebits 1_57: -98998787508764644
+      crebits 1_58: -1462141107931350029
+      crebits 1_59: 6671673001155601482
+      crebits 1_6: 779833240174304910
+      crebits 1_60: 7359944739154507719
+      crebits 1_61: 4344277576129001588
+      crebits 1_62: 3617184775733756888
+      crebits 1_63: -837173012519685760
+      crebits 1_64: 1165064639418207760
+      crebits 1_65: 7110479572460648187
+      crebits 1_66: -767595078239672768
+      crebits 1_67: 4851538916450329301
+      crebits 1_68: 3652919617483269450
+      crebits 1_69: 6404569008467985156
+      crebits 1_7: 8859558978692588291
+      crebits 1_70: 70361628341505313
+      crebits 1_71: -5676631294610656947
+      crebits 1_72: 5310723850844447590
+      crebits 1_73: 4646821931950144038
+      crebits 1_74: 8837461145669190512
+      crebits 1_75: -6874171359588106371
+      crebits 1_76: 765148526314295753
+      crebits 1_77: 265479783476085023
+      crebits 1_78: 1092800548641143020
+      crebits 1_79: -4306027512318331503
+      crebits 1_8: -8478270840873973384
+      crebits 1_80: 7619552589427779836
+      crebits 1_81: 8624304386473455193
+      crebits 1_82: -8423469952875140020
+      crebits 1_83: -1425690583351891888
+      crebits 1_84: -4002921573993090494
+      crebits 1_85: 7231857488293632543
+      crebits 1_86: 7995579674240108206
+      crebits 1_87: -4773269379665525386
+      crebits 1_88: -5822021574409004388
+      crebits 1_89: 3884364793004007158
+      crebits 1_9: -6082522431646213499
+      crebits 1_90: -5085753579266381613
+      crebits 1_91: 321266781650412106
+      crebits 1_92: -1511863778915268998
+      crebits 1_93: 3241578990411553660
+      crebits 1_94: 6442530220893409047
+      crebits 1_95: -8217475083466260686
+      crebits 1_96: -6111546653576997912
+      crebits 1_97: 4268632370186770214
+      crebits 1_98: 4083802259154524206
+      crebits 1_99: 5974806092220275106
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

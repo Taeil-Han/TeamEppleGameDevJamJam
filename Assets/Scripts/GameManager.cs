@@ -86,7 +86,7 @@ public class GameManager : MonoBehaviour
     {
         PlayerManager pm = playerInstance.GetComponent<PlayerManager>();
         CustomerSpawner cs = customerSpawnerInstance.GetComponent<CustomerSpawner>();
-        if (Input.GetKey(KeyCode.Z))
+        /*if (Input.GetKey(KeyCode.Z))
         {
             if (pm != null && cs != null && wavelvl == 1)
             {
@@ -99,7 +99,7 @@ public class GameManager : MonoBehaviour
             {
                 UnlockLvl();
             }
-        }
+        }*/
         CheckWinCondition();
     }
 
