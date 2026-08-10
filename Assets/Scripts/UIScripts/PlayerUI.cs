@@ -11,6 +11,9 @@ public class PlayerUI : MonoBehaviour
     [SerializeField] GameObject shopButton;
     [SerializeField] TMP_Text scoreTMP;
     [SerializeField] TMP_Text moneyTMP;
+    [SerializeField] TMP_Text Ammo1TMP;
+    [SerializeField] TMP_Text Ammo2TMP;
+    [SerializeField] TMP_Text Ammo3TMP;
     private PlayerManager player;
     private GameManager gameManager;
     private int[] numOfShells;
@@ -53,6 +56,9 @@ public class PlayerUI : MonoBehaviour
         scoreTMP.SetText(ScoreManager.Instance.score.ToString());
         moneyTMP.SetText("$" + ScoreManager.Instance.money.ToString());
         waveTMP.SetText("Stage Lvl: " + gameManager.wavelvl.ToString());
+        Ammo1TMP.SetText(numOfShells[0].ToString());
+        Ammo2TMP.SetText(numOfShells[1].ToString());
+        Ammo3TMP.SetText(numOfShells[2].ToString());
     }
 
     public void ChangeAmmoCount(int index)

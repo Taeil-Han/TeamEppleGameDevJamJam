@@ -148,6 +148,19 @@ public class PlayerManager : MonoBehaviour
                 currentShellIndex = bulletPrefabs.Length - 1;
         }
         //Debug.Log(currentShellIndex);
+
+        if (Input.GetKeyDown(KeyCode.Alpha1))
+        {
+            currentShellIndex = 0;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha2) && bulletPrefabs.Length >= 2)
+        {
+            currentShellIndex = 1;
+        }
+        if (Input.GetKeyDown(KeyCode.Alpha3) && bulletPrefabs.Length == 3)
+        {
+            currentShellIndex = 2;
+        }
     }
 
     #region General Stuff
