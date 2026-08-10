@@ -22,6 +22,7 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] float maxX = 8f;
     [SerializeField] float minShootX = -6;
     [SerializeField] float maxShootX = 6;
+    private bool isFirstClick = true;
 
     //Aiming and Firerate
     private List<GameObject> aimLineObjects = new List<GameObject>();
@@ -76,6 +77,16 @@ public class PlayerManager : MonoBehaviour
         {
             return;
         }
+        if (DialogueManager.isDialogueActive)
+        {
+            return;
+        }
+        if (isFirstClick)
+        { 
+            isFirstClick = false;
+            return;
+        }
+
         float direction = 0f;
         if (Input.GetKey(KeyCode.A))
             direction = -1f;

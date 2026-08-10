@@ -20,7 +20,7 @@ public class PauseMenu1 : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.Escape) && !ShopMenu.isShopOpen)
+        if (Input.GetKeyDown(KeyCode.Escape) && !ShopMenu.isShopOpen && !DialogueManager.isDialogueActive)
         {
             if (isPaused)
                 Resume();

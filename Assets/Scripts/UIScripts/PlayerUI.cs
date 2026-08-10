@@ -26,12 +26,12 @@ public class PlayerUI : MonoBehaviour
 
     private void Start()
     {
-        
+       
     }
     void Update()
     {
         if (player == null || gameManager == null) { return; }
-        if (Input.GetKeyDown(KeyCode.E) && !PauseMenu1.isPaused)
+        if (Input.GetKeyDown(KeyCode.E) && !PauseMenu1.isPaused && !DialogueManager.isDialogueActive)
         {
             if (ShopMenu.isShopOpen)
             {

@@ -6,11 +6,13 @@ using TMPro;
 public class DialogueManager : MonoBehaviour
 {
     public static DialogueManager Instance;
+    public static bool isDialogueActive = false;
 
     [SerializeField] GameObject dialoguePanel;
     [SerializeField] TMP_Text dialogueText;
     [SerializeField] float typeSpeed = 0.03f;
     private Action onComplete;
+    
 
     private string[] lines;
     private int currentLine = 0;
@@ -31,6 +33,7 @@ public class DialogueManager : MonoBehaviour
         lines = dialogueLines;
         currentLine = 0;
         onComplete = onCompleteCallback;
+        isDialogueActive = true;
         dialoguePanel.SetActive(true);
         StartCoroutine(TypeLine());
     }
@@ -41,7 +44,6 @@ public class DialogueManager : MonoBehaviour
         {
             if (isTyping)
             {
-                // skip typing animation, show full line instantly
                 StopAllCoroutines();
                 dialogueText.text = lines[currentLine];
                 isTyping = false;
@@ -81,6 +83,7 @@ public class DialogueManager : MonoBehaviour
     void EndDialogue()
     {
         dialoguePanel.SetActive(false);
+        isDialogueActive = false;
         onComplete?.Invoke();
     }
 }
