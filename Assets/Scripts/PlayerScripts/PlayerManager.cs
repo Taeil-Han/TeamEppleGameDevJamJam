@@ -62,6 +62,10 @@ public class PlayerManager : MonoBehaviour
         {
             return;
         }
+        if (PauseMenu1.isPaused) 
+        {
+            return;
+        }
         float direction = 0f;
         if (Input.GetKey(KeyCode.A))
             direction = -1f;

@@ -2,15 +2,18 @@ using UnityEngine;
 
 public class AudioManager : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public static AudioManager Instance;
+
+    [SerializeField] AudioSource sfxSource;
+    [SerializeField] AudioClip buttonClickSound;
+
+    void Awake()
     {
-        
+        Instance = this;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void PlayButtonClick()
     {
-        
+        sfxSource.PlayOneShot(buttonClickSound);
     }
 }

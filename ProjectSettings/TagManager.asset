@@ -71,5 +71,8 @@ TagManager:
   - name: UI
     uniqueID: 932788119
     locked: 0
+  - name: Dialogue
+    uniqueID: 648303511
+    locked: 0
   m_RenderingLayers:
   - Default

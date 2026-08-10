@@ -49,6 +49,30 @@ public class GameManager : MonoBehaviour
             scoreManagerInst.ResetScore();
             scoreManagerInst.ResetMoney();
         }
+
+        isGamePlaying = false;
+        Time.timeScale = 0f;
+
+        if (DialogueManager.Instance != null)
+        {
+            DialogueManager.Instance.StartDialogue(new string[]
+            {
+                "Welcome to Sally’s Seashell Shack on the Seashore. We are so stoked to have you slingin’ shells. But before we throw you to the fray, there are a couple things you should know.",
+                "If you wanna get paid, you gotta hit quota. That number in the top left? That’s your money tracker. Use it to buy new shells and abilities in the shop to unlock customers, but don’t spend it all in one place!" ,
+                "You’ve gotta raise $11,345 before we let you go; it’s all in the contract. Why is it that amount? I don’t have a darn clue?! Have to read it upside down or something to understand that balderdash.",
+                "You'll see our trusty supplier in the top right. To rack up money fast, make sure to upgrade your wares by opening the store with \"E\". If you find yourself running low, click these side buttons to stock up.",
+                "Otherwise, move your sorry butt with \"A\" and \"D\", and keep your aim steady! FIRE AWAY!"
+            }, OnTutorialComplete);
+        }
+        else
+        {
+            OnTutorialComplete();
+        }
+    }
+    void OnTutorialComplete()
+    {
+        Time.timeScale = 1f;
+        isGamePlaying = true;
     }
 
     // Update is called once per frame
@@ -57,7 +81,7 @@ public class GameManager : MonoBehaviour
         PlayerManager pm = playerInstance.GetComponent<PlayerManager>();
         CustomerSpawner cs = customerSpawnerInstance.GetComponent<CustomerSpawner>();
         if (Input.GetKey(KeyCode.Z))
-        { 
+        {
             if (pm != null && cs != null && wavelvl == 1)
             {
                 UnlockLvl();

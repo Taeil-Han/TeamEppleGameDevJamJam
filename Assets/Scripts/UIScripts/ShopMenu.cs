@@ -30,7 +30,7 @@ public class ShopMenu : MonoBehaviour
     private Color available = new Color(255f / 255f, 233f / 255f, 144f / 255f);
     private Color purchased = Color.gray;
     private Color lockedColor = new Color(0.35f, 0.35f, 0.35f, 1f);
-    public int lvl = 0;
+    public int lvl = 1;
 
     //Text
     [SerializeField] TMP_Text moneyTMP;
