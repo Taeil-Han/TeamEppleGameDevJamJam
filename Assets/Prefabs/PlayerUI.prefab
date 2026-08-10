@@ -1349,7 +1349,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipPanel: {fileID: 6674205043433896339}
   tooltipText: {fileID: 8320938433610452017}
-  message: CLAM SHELL\n\n50% Chance to Return\nRegain AMMO\nWHEN Received
+  message: CLAM SHELL\n\n50% Chance to Return\nRegain AMMO\nWHEN Received\nSeals
+    love these
 --- !u!1 &1148308344029258506
 GameObject:
   m_ObjectHideFlags: 0
@@ -4090,7 +4091,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   tooltipPanel: {fileID: 5292813306669904493}
   tooltipText: {fileID: 8497505317566198448}
-  message: SUNDIAL SHELL\n\nNO SPECIAL EFFECTS
+  message: SUNDIAL SHELL\n\nNO SPECIAL EFFECTS\nTurtles love these
 --- !u!1 &5572786475163267324
 GameObject:
   m_ObjectHideFlags: 0
@@ -4183,7 +4184,7 @@ MonoBehaviour:
   tooltipPanel: {fileID: 6777737732422560122}
   tooltipText: {fileID: 6957456694800868941}
   message: CONE SHELL\n\nHold Right-Click\nfor a Charged Shot\nSpeed scales with\ntime
-    held
+    held\nOtters love these
 --- !u!1 &5745938018358845809
 GameObject:
   m_ObjectHideFlags: 0

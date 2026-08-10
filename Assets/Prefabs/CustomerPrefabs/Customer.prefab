@@ -65,7 +65,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Thnx
+  m_text: Thx
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 379402aeaa574a5469312712c92bd755, type: 2}
   m_sharedMaterial: {fileID: -1285085773559106696, guid: 379402aeaa574a5469312712c92bd755, type: 2}
@@ -185,10 +185,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 0.5
+  sfxSource: {fileID: 0}
+  sfxClip: {fileID: 0}
   spriteRenderer: {fileID: 2752533980824167134}
-  turtleSpr: {fileID: 0}
-  otterSpr: {fileID: 0}
-  SealSpr: {fileID: 0}
   opinion: {fileID: 5300732477122722845}
   speechDuration: 0.5
   order: Clam
