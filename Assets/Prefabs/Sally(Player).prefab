@@ -131,6 +131,7 @@ MonoBehaviour:
   maxScaleY: 0.8
   sfxSource: {fileID: 5746220826175014709}
   throwSFX: {fileID: 8300000, guid: f5a255d83d19040bf8b5be5a7bad10d2, type: 3}
+  cancelSFX: {fileID: 8300000, guid: dbd0341a44f9b4853bede44bf8348f1b, type: 3}
 --- !u!61 &6346715995302721261
 BoxCollider2D:
   m_ObjectHideFlags: 0

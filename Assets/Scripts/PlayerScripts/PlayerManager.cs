@@ -53,6 +53,7 @@ public class PlayerManager : MonoBehaviour
     //Audio
     [SerializeField] AudioSource sfxSource;
     [SerializeField] AudioClip throwSFX;
+    [SerializeField] AudioClip cancelSFX;
 
     //Dragging
     private bool isDragging = false;
@@ -284,36 +285,51 @@ public class PlayerManager : MonoBehaviour
         Quaternion rotation = GetRotation(startPos, endPos);
 
         if (Time.time < nextFireTime) { return; }
-        sfxSource.PlayOneShot(throwSFX);
         TriggerShootPose();
 
         switch (currShell)
         {
             case 1:
-                if (numOfShells[1] > 0) { 
+                if (numOfShells[1] > 0)
+                {
+                    sfxSource.PlayOneShot(throwSFX);
                     GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
                     Lvl2Projectile proj2 = obj2.GetComponent<Lvl2Projectile>();
                     proj2.Init(startPos, endPos);
                     numOfShells[1] -= 1;
                 }
+                else 
+                {
+                    sfxSource.PlayOneShot(cancelSFX);
+                }
                 break;
             case 2:
                 if (numOfShells[2] > 0)
                 {
+                    sfxSource.PlayOneShot(throwSFX);
                     GameObject obj3 = Instantiate(lvl3proj, startPos, rotation);
                     Lvl3Projectile proj3 = obj3.GetComponent<Lvl3Projectile>();
                     proj3.Init(startPos, endPos);
                     proj3.SetTarget(transform);
                     numOfShells[2] -= 1;
                 }
+                else
+                {
+                    sfxSource.PlayOneShot(cancelSFX);
+                }
                 break;
             default:
                 if (numOfShells[0] > 0)
                 {
+                    sfxSource.PlayOneShot(throwSFX);
                     GameObject obj = Instantiate(lvl1proj, startPos, rotation);
                     Lvl1Projectile proj = obj.GetComponent<Lvl1Projectile>();
                     proj.Init(startPos, endPos);
                     numOfShells[0] -= 1;
+                }
+                else
+                {
+                    sfxSource.PlayOneShot(cancelSFX);
                 }
                 break;
         }
@@ -325,7 +341,11 @@ public class PlayerManager : MonoBehaviour
     public void ChargeShot(Vector3 startPos, Vector3 endPos, int currShell, float percent) 
     {
         if (currentShellIndex != 1) { return; }
-        if (numOfShells[1] > 0) { return; }
+        if (numOfShells[1] <= 0) 
+        {
+            sfxSource.PlayOneShot(cancelSFX);
+            return; 
+        }
         startPos.y = startPos.y + aimOffsetY;
         Quaternion rotation = GetRotation(startPos, endPos);
         GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);
