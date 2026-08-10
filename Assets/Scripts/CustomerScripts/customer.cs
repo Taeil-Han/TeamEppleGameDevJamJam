@@ -5,6 +5,8 @@ using System.Collections;
 public class Customer : MonoBehaviour
 {
     [SerializeField] float speed = 1f;
+    [SerializeField] AudioSource sfxSource;
+    [SerializeField] AudioClip sfxClip;
     public SpriteRenderer spriteRenderer;
     public TMP_Text opinion;
     public float speechDuration = 0.5f;
@@ -69,6 +71,7 @@ public class Customer : MonoBehaviour
             Destroy(gameObject);
         } else if (collision.gameObject.CompareTag("Clam") || collision.gameObject.CompareTag("Cone") || collision.gameObject.CompareTag("Sundial")) {
             shootable = false;
+            sfxSource.PlayOneShot(sfxClip);
             if (collision.gameObject.CompareTag(order))
             {
                 //Correct

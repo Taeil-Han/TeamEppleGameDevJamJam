@@ -15,6 +15,7 @@ public class Lvl3Projectile : Projectile
     {
         if (collision.gameObject.CompareTag("Enemy") && !hasHit)
         {
+            sfxSource.PlayOneShot(sfxClip);
             //Stuff it does when it gets hit
             if (Random.value < 0.5f)
             {

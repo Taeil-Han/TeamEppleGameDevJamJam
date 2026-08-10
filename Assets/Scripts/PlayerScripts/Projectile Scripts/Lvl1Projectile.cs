@@ -1,3 +1,4 @@
+using NUnit.Framework;
 using UnityEngine;
 
 public class Lvl1Projectile : Projectile
@@ -7,6 +8,7 @@ public class Lvl1Projectile : Projectile
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            sfxSource.PlayOneShot(sfxClip);
             //Stuff it does when it gets hit
             Destroy(gameObject);
         }

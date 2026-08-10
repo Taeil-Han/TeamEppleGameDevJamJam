@@ -8,6 +8,8 @@ public class Projectile : MonoBehaviour
 
     [SerializeField] protected float speed;
     [SerializeField] protected float lifetime = 3f;
+    [SerializeField] protected AudioSource sfxSource;
+    [SerializeField] protected AudioClip sfxClip;
     protected virtual void Start()
     {
         Destroy(gameObject, lifetime);

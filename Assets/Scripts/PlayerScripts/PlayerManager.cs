@@ -10,7 +10,6 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] GameObject lvl2proj;
     [SerializeField] GameObject lvl3proj;
 
-
     [SerializeField] float speed = 5f;
     [SerializeField] float minX = -8f;
     [SerializeField] float maxX = 8f;
@@ -42,6 +41,10 @@ public class PlayerManager : MonoBehaviour
     [SerializeField] float minScaleY = 0.5f;
     [SerializeField] float maxScaleY = 2f;
     private GameObject currentChargeVisual;
+
+    //Audio
+    [SerializeField] AudioSource sfxSource;
+    [SerializeField] AudioClip throwSFX;
 
     //Dragging
     private bool isDragging = false;
@@ -92,6 +95,7 @@ public class PlayerManager : MonoBehaviour
         {
             if (myY + aimOffsetY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
+                sfxSource.PlayOneShot(throwSFX);
                 Shoot(pos, currPos, currentShellIndex);
             }
         }
@@ -119,6 +123,7 @@ public class PlayerManager : MonoBehaviour
             }
             else if (isCharging)
             {
+                sfxSource.PlayOneShot(throwSFX);
                 float chargeDuration = Time.time - chargeStartTime;
                 float chargePercent = Mathf.Clamp01(chargeDuration / maxChargeTime);
                 ChargeShot(pos, currPos, currentShellIndex, chargePercent);

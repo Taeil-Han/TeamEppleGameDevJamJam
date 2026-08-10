@@ -15,6 +15,7 @@ public class Lvl2Projectile : Projectile
     {
         if (collision.gameObject.CompareTag("Enemy"))
         {
+            sfxSource.PlayOneShot(sfxClip);
             //Stuff it does when it gets hit
 
             Destroy(gameObject);
