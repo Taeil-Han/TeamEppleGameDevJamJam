@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.SocialPlatforms.Impl;
 
 public class GameManager : MonoBehaviour
@@ -28,13 +29,15 @@ public class GameManager : MonoBehaviour
     //Shop Vars
     private double shopFunds = 0;
 
-    private double winAmount = 1000000;
+    private double winAmount = 11345;
 
     
 
     void Start()
     {
         isGamePlaying = true;
+        isGameLost = false;
+        isGameWon = false;
         playerInstance = Instantiate(playerPrefab, new Vector3(0, -4, 0), Quaternion.identity);
         playerManager = playerInstance.GetComponent<PlayerManager>();
         customerSpawnerInstance = Instantiate(customerSpawner, new Vector3(0, 0, 0), Quaternion.identity);
@@ -111,11 +114,13 @@ public class GameManager : MonoBehaviour
         { 
             isGameLost = true;
             //TODO: ADD GAMING LOSING LOGIC
-            Debug.Log("YOU LOSEEEEE");
+            SceneManager.LoadScene("LoseScene");
+            //Debug.Log("YOU LOSEEEEE");
         }
         if (scoreManagerInst.money >= winAmount) 
         { 
             isGameWon = true;
+            SceneManager.LoadScene("WinScene");
             //TODO: ADD GAMING WINNING LOGIC
         }
     }
