@@ -99,6 +99,10 @@ public class Customer : MonoBehaviour
                     }
                     
                 }
+                if (PlayerUI.Instance != null)
+                {
+                    PlayerUI.Instance.FlashReactionImage(true);
+                }
                 StartCoroutine(Thankful());
 
             }
