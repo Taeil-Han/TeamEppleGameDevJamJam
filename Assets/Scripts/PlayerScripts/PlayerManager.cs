@@ -325,6 +325,7 @@ public class PlayerManager : MonoBehaviour
     public void ChargeShot(Vector3 startPos, Vector3 endPos, int currShell, float percent) 
     {
         if (currentShellIndex != 1) { return; }
+        if (numOfShells[1] > 0) { return; }
         startPos.y = startPos.y + aimOffsetY;
         Quaternion rotation = GetRotation(startPos, endPos);
         GameObject obj2 = Instantiate(lvl2proj, startPos, rotation);

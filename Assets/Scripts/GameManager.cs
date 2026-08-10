@@ -67,7 +67,7 @@ public class GameManager : MonoBehaviour
                 "You\'ll see our trusty supplier in the top right. To rack up money fast, make sure to upgrade your wares by opening the store with \"E\". If you find yourself running low, click these side buttons to stock up.",
                 "Also, these sea creatures, although cute, are so prickly and clammy. Make sure to give them the right shell and never let them get close to your shop! Our trusty supplier will tell you the intel you need.",
                 "Finally, use either the number keys or the scroll wheel to switch your current shell. Make sure you have the special shells bought from our supplier to obtain them",
-                "Otherwise, move your sorry butt with \"A\" and \"D\", and keep your aim steady! FIRE AWAY!"
+                "Otherwise, move your sorry butt with \"A\" and \"D\", and make sure you never go under $0! Keep your aim steady! FIRE AWAY!"
             }, OnTutorialComplete);
         }
         else

@@ -16,6 +16,7 @@ public class Customer : MonoBehaviour
     private float turtleSpd = 1f;
     private float otterSpd = 1.25f;
     private float sealSpd = 1.75f;
+    private float multiplier = 1f;
      
 
     void Start()
@@ -27,14 +28,17 @@ public class Customer : MonoBehaviour
             if (order == "Clam")
             {
                 speed = sealSpd;
+                multiplier = 3f;
             }
             else if (order == "Cone")
             {
                 speed = otterSpd;
+                multiplier = 2f;
             }
             else if (order == "Sundial") 
             {
                 speed = turtleSpd;
+                multiplier = 1f;
             }
         }
     }
@@ -51,22 +55,22 @@ public class Customer : MonoBehaviour
                 if (ShopMenu.Instance.lvl == 0)
                 {
                     ScoreManager.Instance.SubtractScore(2);
-                    ScoreManager.Instance.SubtractMoney(2.50f);
+                    ScoreManager.Instance.SubtractMoney(2.50f * multiplier);
                 }
                 else if (ShopMenu.Instance.lvl == 1)
                 {
                     ScoreManager.Instance.SubtractScore(5);
-                    ScoreManager.Instance.SubtractMoney(5.00f);
+                    ScoreManager.Instance.SubtractMoney(5.00f * multiplier);
                 }
                 else if (ShopMenu.Instance.lvl == 2)
                 {
                     ScoreManager.Instance.SubtractScore(15);
-                    ScoreManager.Instance.SubtractMoney(15.00f);
+                    ScoreManager.Instance.SubtractMoney(15.00f * multiplier);
                 }
                 else if (ShopMenu.Instance.lvl == 3)
                 {
                     ScoreManager.Instance.SubtractScore(25);
-                    ScoreManager.Instance.SubtractMoney(25.00f);
+                    ScoreManager.Instance.SubtractMoney(25.00f * multiplier);
                 }
             }
             StartCoroutine(Robbed());
@@ -81,21 +85,21 @@ public class Customer : MonoBehaviour
                     if(ShopMenu.Instance.lvl == 0)
                     {
                         ScoreManager.Instance.AddScore(5);
-                        ScoreManager.Instance.AddMoney(5.00f);
+                        ScoreManager.Instance.AddMoney(5.00f * multiplier);
                     } else if (ShopMenu.Instance.lvl == 1)
                     {
                         ScoreManager.Instance.AddScore(10);
-                        ScoreManager.Instance.AddMoney(10.00f);
+                        ScoreManager.Instance.AddMoney(10.00f * multiplier);
                     }
                     else if (ShopMenu.Instance.lvl == 2)
                     {
                         ScoreManager.Instance.AddScore(30);
-                        ScoreManager.Instance.AddMoney(30.00f);
+                        ScoreManager.Instance.AddMoney(30.00f * multiplier);
                     }
                     else if (ShopMenu.Instance.lvl == 3)
                     {
                         ScoreManager.Instance.AddScore(50);
-                        ScoreManager.Instance.AddMoney(50.00f);
+                        ScoreManager.Instance.AddMoney(50.00f * multiplier);
                     }
                     
                 }
@@ -114,22 +118,22 @@ public class Customer : MonoBehaviour
                     if (ShopMenu.Instance.lvl == 0)
                     {
                         ScoreManager.Instance.SubtractScore(2);
-                        ScoreManager.Instance.SubtractMoney(2.50f);
+                        ScoreManager.Instance.SubtractMoney(2.50f * multiplier);
                     }
                     else if (ShopMenu.Instance.lvl == 1)
                     {
                         ScoreManager.Instance.SubtractScore(5);
-                        ScoreManager.Instance.SubtractMoney(5.00f);
+                        ScoreManager.Instance.SubtractMoney(5.00f * multiplier);
                     }
                     else if (ShopMenu.Instance.lvl == 2)
                     {
                         ScoreManager.Instance.SubtractScore(15);
-                        ScoreManager.Instance.SubtractMoney(15.00f);
+                        ScoreManager.Instance.SubtractMoney(15.00f * multiplier);
                     }
                     else if (ShopMenu.Instance.lvl == 3)
                     {
                         ScoreManager.Instance.SubtractScore(25);
-                        ScoreManager.Instance.SubtractMoney(25.00f);
+                        ScoreManager.Instance.SubtractMoney(25.00f * multiplier);
                     }
 
                 }
