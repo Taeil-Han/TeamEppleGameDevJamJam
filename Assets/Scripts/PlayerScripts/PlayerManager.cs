@@ -36,7 +36,7 @@ public class PlayerManager : MonoBehaviour
     
     //Shell Organization
     [SerializeField] GameObject[] bulletPrefabs; //Change for 5 bullets if time permits
-    private int[] numOfShells = new int[3] { 10, 100, 100};
+    private int[] numOfShells = new int[3] { 10, 0, 0};
     private int currentShellIndex = 0;
     private int unlockedShell = 0;
 
@@ -113,8 +113,7 @@ public class PlayerManager : MonoBehaviour
         {
             if (myY + aimOffsetY < currPos.y) //Here Too (If need to edit, so it's not the whole screen)
             {
-                sfxSource.PlayOneShot(throwSFX);
-                TriggerShootPose();
+            
                 Shoot(pos, currPos, currentShellIndex);
             }
         }
@@ -285,6 +284,8 @@ public class PlayerManager : MonoBehaviour
         Quaternion rotation = GetRotation(startPos, endPos);
 
         if (Time.time < nextFireTime) { return; }
+        sfxSource.PlayOneShot(throwSFX);
+        TriggerShootPose();
 
         switch (currShell)
         {

@@ -3757,8 +3757,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4279714694
-  m_fontColor: {r: 0.5254902, g: 0.2627451, b: 0.09019608, a: 1}
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -6597,7 +6597,7 @@ MonoBehaviour:
   up1T: {fileID: 5692675753540144464}
   up2T: {fileID: 77801499641449301}
   up3T: {fileID: 9084258319075131538}
-  lvl: 0
+  lvl: 1
   moneyTMP: {fileID: 7684247361285299325}
   button2TMP: {fileID: 77801499641449301}
   button3TMP: {fileID: 9084258319075131538}

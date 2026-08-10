@@ -111,6 +111,7 @@ public class ShopMenu : MonoBehaviour
             lvl = 2;
             uiImage.sprite = sprites[1];
             PlayerManager.Instance.UnlockShell(2);
+            PlayerManager.Instance.AddShell(1, 10);
             CustomerSpawner.Instance.UnlockCustomer(2);
             RefreshUB();
         }
@@ -125,6 +126,7 @@ public class ShopMenu : MonoBehaviour
             lvl = 3;
             uiImage.sprite = sprites[2];
             PlayerManager.Instance.UnlockShell(3);
+            PlayerManager.Instance.AddShell(2, 10);
             CustomerSpawner.Instance.UnlockCustomer(3);
             RefreshUB();
         }
@@ -156,16 +158,16 @@ public class ShopMenu : MonoBehaviour
     {
         UBState(up1B, up1I, up1T, lvl == 0, lvl >= 1);
         lvl1Block.SetActive(lvl==0);
-        UBState(up2B, up2I, up2T, lvl == 1, lvl >= 2);
+        UBState(up2B, up2I, up2T, lvl == 1 && ScoreManager.Instance.money > upgradeCost2, lvl >= 2);
         lvl2Block.SetActive(lvl < 2);
-        UBState(up3B, up3I, up3T, lvl == 2, lvl >= 3);
+        UBState(up3B, up3I, up3T, lvl == 2 && ScoreManager.Instance.money > upgradeCost3, lvl >= 3);
         lvl3Block.SetActive(lvl < 3);
     }
 
     void UBState(Button button, Image image, TMP_Text text, bool avail, bool bought)
     {
         button.interactable = avail;
-        if (avail)
+        if (avail && !bought)
         {
             image.color = available;
             text.color = new Color(134f / 255f, 67f / 255f, 23f / 255f);
