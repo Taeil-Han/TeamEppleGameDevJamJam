@@ -50,6 +50,6 @@ MonoBehaviour:
   sealPrefab: {fileID: 5015523277938528966, guid: 1c047f93cc2e18b448463bd59b221f29, type: 3}
   spawnTimeMIN: 0.8
   spawnTimeMAX: 2
-  xMIN: -5.6
-  xMAX: 5.6
+  xMIN: -4.8
+  xMAX: 4.8
   ySTART: 5.5

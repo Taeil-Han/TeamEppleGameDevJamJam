@@ -110,10 +110,10 @@ MonoBehaviour:
   normalSprite: {fileID: 6097149389191852870, guid: 138832fd266adff47bf9070f7b208e1e, type: 3}
   shootPoseSprite: {fileID: 7259260702660452486, guid: c7591923bf9e04143bd4ad6f20a0dc24, type: 3}
   speed: 7
-  minX: -5.6
-  maxX: 5.6
-  minShootX: -6.3
-  maxShootX: 6.3
+  minX: -4.8
+  maxX: 4.8
+  minShootX: -5
+  maxShootX: 5
   aimLineSprite: {fileID: 7802456712840302976, guid: 76fc0138a964785409c936bbec91d2dd, type: 3}
   aimEndSprite: {fileID: 3342607121675704892, guid: b94bb0af2fbbf8b48b6a31ddd4ec3b52, type: 3}
   aimOffsetY: 0.25
