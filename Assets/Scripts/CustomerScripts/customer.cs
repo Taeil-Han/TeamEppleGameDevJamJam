@@ -7,6 +7,7 @@ public class Customer : MonoBehaviour
     [SerializeField] float speed = 1f;
     [SerializeField] AudioSource sfxSource;
     [SerializeField] AudioClip sfxClip;
+    [SerializeField] AudioClip sfxRob;
     public SpriteRenderer spriteRenderer;
     public TMP_Text opinion;
     public float speechDuration = 0.5f;
@@ -167,6 +168,7 @@ public class Customer : MonoBehaviour
     IEnumerator Robbed()
     {
         StoreQuake.Instance.Shake();
+        sfxSource.PlayOneShot(sfxRob);
         opinion.text = "Clammed";
         opinion.gameObject.SetActive(true);
         speed = 0;

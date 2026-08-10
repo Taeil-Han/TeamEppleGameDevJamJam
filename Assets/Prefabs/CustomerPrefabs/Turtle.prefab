@@ -52,6 +52,7 @@ MonoBehaviour:
   speed: 0.5
   sfxSource: {fileID: 743611036163825250}
   sfxClip: {fileID: 8300000, guid: 0b6e9952e22054208a3080cb51c6d746, type: 3}
+  sfxRob: {fileID: 8300000, guid: 5b472ef5e6f7c42cebe6d26638180bd0, type: 3}
   spriteRenderer: {fileID: 2752533980824167134}
   opinion: {fileID: 4692752334538438025}
   speechDuration: 0.5

@@ -6,6 +6,7 @@ public class StoreQuake : MonoBehaviour
     private RectTransform rectTransform;
     private Vector2 originalPos;
     public static StoreQuake Instance;
+    [SerializeField] float strength = 0.01f;
 
     void Awake()
     {
@@ -23,7 +24,6 @@ public class StoreQuake : MonoBehaviour
     IEnumerator ShakeRoutine()
     {
         float duration = 0.25f;
-        float strength = 12f;
         float timer = 0f;
         while (timer < duration)
         {
